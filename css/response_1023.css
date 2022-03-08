@@ -1,0 +1,560 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs button
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        padding: 10px 12px 6px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        height: 221px;
+    }
+
+
+    header .bottom
+    {
+        padding-top: 12px;
+        padding-bottom: 40px;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        width: 174px;
+    }
+
+
+    header .contacts
+    {
+        margin-left: 32px;
+    }
+
+
+    header .menu
+    {
+        display: none;
+    }
+
+
+    header .search
+    {
+        width: calc(100% - 206px);
+        margin-top: 4px;
+    }
+
+    header .search .title
+    {
+        font-size: 18px;
+        line-height: 20px;
+
+        margin-bottom: 24px;
+        padding: 16px 20px;
+    }
+
+    header .search form .input
+    {
+        font-size: 18px;
+
+        padding-right: 52px;
+    }
+
+    header .search form .submit_btn
+    {
+        width: 52px;
+    }
+
+
+    header .search .tags
+    {
+        margin-top: 20px;
+    }
+
+    header .search .tags > *:nth-child(3) ~ *
+    {
+        display: none;
+    }
+
+    header .search .tags a
+    {
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+
+    header .links
+    {
+        margin-left: auto;
+    }
+
+    header .links > * + *
+    {
+        margin-left: 32px;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu
+    {
+        padding-top: 24px;
+    }
+
+
+    #menu .tabs
+    {
+        margin-bottom: 40px;
+        padding-left: 88px;
+    }
+
+
+    #menu .cols
+    {
+        margin-bottom: -40px;
+    }
+
+    #menu .cols .col
+    {
+        width: calc(50% - 20px);
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+    #menu .cols .col:last-child
+    {
+        display: flex;
+
+        width: 100%;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    #menu .cols .col:last-child > *
+    {
+        width: calc(50% - 20px);
+        max-width: 100%;
+    }
+
+    #menu .cols .col:last-child > *:nth-child(2)
+    {
+        margin-top: 0;
+    }
+
+
+    #menu .alphabet .item
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 40px 0;
+    }
+
+
+    .page_title
+    {
+        font-size: 38px;
+    }
+
+
+    .page_head .btns
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section > .cont
+    {
+        padding-top: 400px;
+        padding-bottom: 64px;
+    }
+
+
+    .first_section header
+    {
+        height: 296px;
+    }
+
+    .first_section header .bottom
+    {
+        padding: 40px 0;
+    }
+
+
+    .first_section .services
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .first_section .services > *
+    {
+        width: calc(25% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .first_section .services .service
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        min-height: 100px;
+        padding: 16px 32px 16px 16px;
+    }
+
+
+    .first_section .services .service .icon
+    {
+        right: 12px;
+        bottom: 12px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        margin-bottom: 60px;
+        padding: 64px 0;
+    }
+
+
+    .about_block .data .title
+    {
+        font-size: 32px;
+    }
+
+    .about_block .data .sub_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        margin-top: 8px;
+    }
+
+
+    .about_block .data .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: 100%;
+    }
+
+
+    .about_block .data .link
+    {
+        margin-top: 20px;
+    }
+
+
+    .about_block .presentation
+    {
+        width: 500px;
+        margin-top: 12px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .about_block .presentation .download_link
+    {
+        margin-top: -16px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+    .articles .row > *:nth-child(2) ~ *
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .banners .banner
+    {
+        height: 192px;
+        padding-top: 60px;
+        padding-right: 64px;
+    }
+
+    .banners .banner .info
+    {
+        width: 392px;
+    }
+
+    .banners .banner .name
+    {
+        font-size: 28px;
+    }
+
+    .banners .banner .price
+    {
+        font-size: 24px;
+    }
+
+    .banners .banner .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .brands .row > *
+    {
+        width: calc(25% - 24px);
+    }
+
+    .brands .row > *:nth-child(4) ~ *
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we
+    {
+        margin-bottom: 60px;
+        padding: 64px 0;
+    }
+
+
+    .why_we .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .why_we .row > *
+    {
+        width: calc(50% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+
+    /*-------------
+        Experts
+    -------------*/
+    .experts
+    {
+        margin-bottom: 64px;
+    }
+
+    .experts .row > *
+    {
+        width: 33.333%;
+    }
+
+
+
+    /*------------------
+        Developments
+    ------------------*/
+    .developments .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+    .developments .row > *:nth-child(2) ~ *
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        margin-bottom: 60px;
+        padding: 64px 0;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .row
+    {
+        padding-top: 12px;
+    }
+
+    .certs .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        display: block;
+
+        width: 100%;
+        margin-bottom: 24px;
+
+        column-gap: 24px;
+        column-count: 4;
+    }
+
+    footer .menu > *
+    {
+        transform: translateZ(0);
+
+        --webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+
+    footer .menu > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+    footer .text
+    {
+        margin-top: 0;
+    }
+
+
+    footer .phone
+    {
+        top: 141px;
+    }
+
+
+    footer .typo
+    {
+        margin-top: 12px;
+    }
+
+
+    footer .socials a + a
+    {
+        margin-left: 24px;
+    }
+}

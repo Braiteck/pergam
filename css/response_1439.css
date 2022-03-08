@@ -1,0 +1,593 @@
+@media print, (max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 36px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*------------
+        Notice
+    ------------*/
+    .notice
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        padding: 16px 0;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .tabs button
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        height: 40px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        height: 268px;
+    }
+
+
+    header .info
+    {
+        padding: 24px 0;
+    }
+
+
+    header .bottom
+    {
+        padding: 16px 0 52px;
+    }
+
+
+    header .contacts .phone
+    {
+        font-size: 18px;
+
+        margin-top: 12px;
+    }
+
+
+    header .menu
+    {
+        width: 564px;
+        margin-bottom: -8px;
+        margin-left: -32px;
+    }
+
+    header .menu > *
+    {
+        margin-bottom: 8px;
+        margin-left: 32px;
+    }
+
+
+    header .feedback_btn
+    {
+        width: 180px;
+    }
+
+
+    header .links > * + *
+    {
+        margin-left: 24px;
+    }
+
+
+    header .search form .input
+    {
+        font-size: 30px;
+    }
+
+
+    header .search .tags
+    {
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+
+    header .search .tags > *
+    {
+        margin-left: 20px;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu .cols .title
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    #menu .cols .item + .item
+    {
+        margin-top: 52px;
+    }
+
+
+    #menu .cols .items > * + *,
+    #menu .alphabet .items > * + *
+    {
+        margin-top: 8px;
+    }
+
+    #menu .cols .items a,
+    #menu .alphabet .items a
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    #menu .alphabet
+    {
+        margin-bottom: -52px;
+        margin-left: -32px;
+    }
+
+    #menu .alphabet .item
+    {
+        width: calc(20% - 32px);
+        margin-bottom: 52px;
+        margin-left: 32px;
+    }
+
+    #menu .alphabet .letter
+    {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        font-size: 52px;
+    }
+
+
+    .page_head .btns
+    {
+        margin-top: 32px;
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .page_head .btns .btn
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-bottom: 8px;
+        margin-left: 8px;
+        padding: 11px 16px 7px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        width: 1000px;
+        margin-top: 20px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .first_section > .cont
+    {
+        min-height: 0;
+        padding-top: 500px;
+        padding-bottom: 80px;
+    }
+
+
+    .first_section header
+    {
+        height: 385px;
+    }
+
+    .first_section header .bottom
+    {
+        padding: 64px 0 52px;
+    }
+
+
+    .first_section .services
+    {
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .first_section .services > *
+    {
+        width: calc(20% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+
+    .first_section .services .service
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        min-height: 112px;
+        padding: 23px;
+    }
+
+    .first_section .services .service .icon
+    {
+        bottom: 19px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block .data .title
+    {
+        font-size: 38px;
+        line-height: 100%;
+    }
+
+    .about_block .data .sub_title
+    {
+        font-size: 26px;
+        line-height: 28px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .articles .row
+    {
+        margin-left: -32px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-left: 32px;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .banners .banner
+    {
+        height: 220px;
+        padding-right: 152px;
+        padding-bottom: 48px;
+    }
+
+    .banners .banner .info
+    {
+        width: 520px;
+    }
+
+    .banners .banner .name
+    {
+        font-size: 36px;
+    }
+
+    .banners .banner .price
+    {
+        font-size: 30px;
+
+        margin-left: 32px;
+    }
+
+    .banners .banner .price .sticker
+    {
+        top: -20px;
+
+        margin-left: 12px;
+    }
+
+    .banners .banner .desc
+    {
+        font-size: 20px;
+        line-height: 28px;
+
+        margin-top: 20px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .products .product
+    {
+        padding: 27px;
+    }
+
+    .products .product .thumb
+    {
+        height: 220px;
+    }
+
+    .products .product .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .brands .swiper-container
+    {
+        margin-top: 0;
+    }
+
+
+    .brands .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+        padding-top: 0;
+    }
+
+    .brands .row > *
+    {
+        width: calc(12.5% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .why_we .row
+    {
+        padding-top: 24px;
+    }
+
+
+    .why_we .item .icon + div
+    {
+        width: calc(100% - 96px);
+    }
+
+    .why_we .item .name
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*------------------
+        Developments
+    ------------------*/
+    .developments
+    {
+        margin-bottom: 71px;
+    }
+
+
+    .developments .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+        padding-top: 0;
+    }
+
+    .developments .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        margin-bottom: 72px;
+        padding: 80px 0;
+    }
+
+
+
+    /*-------------
+        Experts
+    -------------*/
+    .experts
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .experts .item
+    {
+        padding: 20px 16px;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .partners .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .certs .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .certs .row > *
+    {
+        width: calc(16.666% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+    .certs .cert .thumb
+    {
+        margin-bottom: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .info
+    {
+        padding: 52px 0 35px;
+    }
+
+
+    footer .bottom
+    {
+        padding: 24px 0;
+    }
+
+
+    footer .menu,
+    footer .text
+    {
+        width: calc(100% - 332px);
+    }
+
+
+    footer .phone
+    {
+        font-size: 22px;
+        line-height: 20px;
+
+        width: 220px;
+    }
+
+
+    footer .typo
+    {
+        width: 220px;
+    }
+
+
+    footer .socials a + a
+    {
+        margin-left: 28px;
+    }
+}

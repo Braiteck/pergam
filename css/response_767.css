@@ -1,0 +1,634 @@
+@media print, (max-width: 767px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+
+    /*------------
+        Notice
+    ------------*/
+    .notice
+    {
+        font-size: 15px;
+
+        padding: 12px 0;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px 20px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .tabs::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .tabs::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .tabs button
+    {
+        display: inline-block;
+
+        margin: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .tabs button + button
+    {
+        margin-left: 8px;
+    }
+
+
+
+    /*------------------
+        Mob all link
+    ------------------*/
+    .mob_all_link
+    {
+        display: flex;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        height: 276px;
+    }
+
+    header .bottom
+    {
+        padding-bottom: 32px;
+    }
+
+
+    header .contacts
+    {
+        position: absolute;
+        z-index: 5;
+        top: 124px;
+        right: 24px;
+
+        margin: 0;
+    }
+
+    header .contacts .phone
+    {
+        font-size: 16px;
+
+        margin-top: 8px;
+    }
+
+
+    header .links > * + *
+    {
+        margin-left: 20px;
+    }
+
+    header .links a,
+    header .links .mob_feedback_btn
+    {
+        width: 32px;
+        height: 40px;
+    }
+
+    header .links .mob_feedback_btn .icon
+    {
+        width: 26px;
+        height: 24px;
+    }
+
+    header .links .compare_link .icon
+    {
+        width: 28px;
+        height: 20px;
+    }
+
+    header .links .favorite_link .icon
+    {
+        width: 27px;
+        height: 26px;
+    }
+
+    header .links .cart_link .icon
+    {
+        width: 25px;
+        height: 26px;
+    }
+
+    header .links .count
+    {
+        font-size: 13px;
+        line-height: 20px;
+
+        right: -8px;
+    }
+
+
+    header .search
+    {
+        width: 100%;
+        margin-top: 12px;
+    }
+
+    header .search .title
+    {
+        display: none !important;
+    }
+
+    header .search .tags a
+    {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu .cols .col
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    #menu .cols .col:last-child
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+    #menu .cols .col:last-child > *
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #menu .cols .col:last-child > *:nth-child(2)
+    {
+        margin-top: 40px;
+    }
+
+
+    #menu .alphabet .item
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 32px 0;
+    }
+
+
+    .page_title
+    {
+        font-size: 32px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .all_link
+    {
+        display: none;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .first_section header
+    {
+        height: 339px;
+    }
+
+    .first_section header .bottom
+    {
+        padding: 24px 0;
+    }
+
+    .first_section header .contacts
+    {
+        top: 148px;
+    }
+
+
+    .first_section > .cont
+    {
+        padding-top: 380px;
+        padding-bottom: 60px;
+    }
+
+
+    .first_section .services
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 0 -24px;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .first_section .services::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .first_section .services::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .first_section .services .service
+    {
+        display: inline-block;
+
+        width: 180px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .first_section .services .service + .service
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        padding: 60px 0;
+    }
+
+
+    .about_block .data .title
+    {
+        font-size: 28px;
+    }
+
+    .about_block .data .sub_title
+    {
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .row
+    {
+        margin-left: 0;
+    }
+
+    .articles .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .articles .row > *:nth-child(2) ~ *
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners .swiper-container
+    {
+        padding-bottom: 33px;
+    }
+
+    .banners .swiper-button-next,
+    .banners .swiper-button-prev
+    {
+        display: none;
+    }
+
+    .banners .swiper-pagination
+    {
+        display: flex;
+    }
+
+
+    .banners .banner
+    {
+        height: 240px;
+        padding: 40px 40px 24px;
+    }
+
+
+    .banners .banner .info
+    {
+        color: #fff;
+
+        width: 100%;
+
+        text-align: center;
+
+        justify-content: center;
+    }
+
+
+    .banners .banner .name
+    {
+        font-size: 26px;
+    }
+
+
+    .banners .banner .price
+    {
+        font-size: 22px;
+
+        margin-left: 32px;
+    }
+
+    .banners .banner .price .sticker
+    {
+        font-size: 10px;
+        line-height: 22px;
+
+        top: -28px;
+        left: 0;
+
+        height: 20px;
+        margin-left: 0;
+        padding: 0 8px;
+    }
+
+
+    .banners .banner .desc
+    {
+        margin-top: 12px;
+    }
+
+
+    .banners .banner .bg
+    {
+        background-position: 0 50%;
+    }
+
+    .banners .banner .bg:after
+    {
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        content: '';
+
+        background: linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .product .sticker
+    {
+        top: 11px;
+        left: -1px;
+    }
+
+    .products .product .thumb
+    {
+        height: 160px;
+    }
+
+    .products .product .name
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+    .brands .row > *:nth-child(3) ~ *
+    {
+        display: none;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we .row
+    {
+        margin-left: 0;
+    }
+
+    .why_we .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Experts
+    -------------*/
+    .experts .row > *
+    {
+        width: 50%;
+    }
+
+
+
+    /*------------------
+        Developments
+    ------------------*/
+    .developments .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+    .developments .row > *
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+    .developments .row > *:nth-child(2) ~ *
+    {
+        display: block;
+    }
+
+
+    .developments .item .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        padding: 60px 0;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        margin-bottom: 0;
+
+        column-count: 2;
+    }
+
+
+    footer .phone
+    {
+        position: relative;
+        top: 0;
+        right: 0;
+
+        width: 100%;
+        margin-top: 28px;
+
+        order: 3;
+    }
+
+
+    footer .text
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        order: 2;
+    }
+
+
+    footer .typo
+    {
+        margin-top: 20px;
+
+        order: 4;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        order: 2;
+    }
+
+
+    footer .socials
+    {
+        width: 100%;
+
+        order: 1;
+        justify-content: space-between;
+    }
+}

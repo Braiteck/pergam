@@ -1,0 +1,729 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 15px;
+        --font_size_title: 32px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    .swiper-button-next
+    {
+        right: 12px;
+    }
+
+    .swiper-button-prev
+    {
+        left: 12px;
+    }
+
+
+
+    /*----------
+        Tabs
+    ----------*/
+    .tabs
+    {
+        margin-bottom: 24px;
+        margin-left: -12px;
+    }
+
+
+    .tabs button
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        height: auto;
+        margin-left: 12px;
+        padding: 10px 16px 6px;
+    }
+
+
+
+    /*-----------------
+        Search open
+    -----------------*/
+    .search_open header
+    {
+        position: fixed;
+
+        height: 100% !important;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        max-height: 100% !important;
+    }
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        height: 257px;
+    }
+
+
+    header .contacts
+    {
+        margin-left: 24px;
+    }
+
+
+    header .menu
+    {
+        width: 496px;
+        margin-right: auto;
+        margin-left: 8px;
+    }
+
+    header .menu > *
+    {
+        margin-left: 24px;
+    }
+
+
+    header .feedback_btn
+    {
+        display: none;
+    }
+
+
+    header .links > *.hied
+    {
+        display: block;
+    }
+
+    header .links > * + *
+    {
+        margin-left: 24px;
+    }
+
+
+    header .logo,
+    header .logo img
+    {
+        width: 200px;
+    }
+
+
+    header .search
+    {
+        width: calc(100% - 240px);
+        margin-top: 12px;
+    }
+
+    header .search form .input
+    {
+        font-size: 24px;
+
+        height: 64px;
+        padding-right: 72px;
+    }
+
+    header .search form .submit_btn
+    {
+        width: 64px;
+        height: 64px;
+    }
+
+
+    header .search .tags
+    {
+        margin-top: 27px;
+        margin-left: -12px;
+    }
+
+    header .search .tags > *
+    {
+        margin-left: 12px;
+    }
+
+    header .search .tags a
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+
+    /*----------
+        Menu
+    ----------*/
+    #menu .cols .col
+    {
+        max-width: 300px;
+    }
+
+
+    #menu .cols .title
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    #menu .cols .item + .item
+    {
+        margin-top: 40px;
+    }
+
+
+    #menu .cols .items a,
+    #menu .alphabet .items a
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    #menu .alphabet
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    #menu .alphabet .item
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+    #menu .alphabet .letter
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding: 44px 0;
+    }
+
+
+    .page_title
+    {
+        font-size: 44px;
+    }
+
+
+    .page_head .btns
+    {
+        margin-top: 28px;
+    }
+
+    .page_head .btns .btn
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .title
+    {
+        line-height: calc(var(--font_size_title) + 4px);
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section > .cont
+    {
+        padding-top: 432px;
+        padding-bottom: 72px;
+    }
+
+
+    .first_section header
+    {
+        height: 338px;
+    }
+
+    .first_section header .bottom
+    {
+        padding: 52px 0;
+    }
+
+
+    .first_section .services
+    {
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+    .first_section .services > *
+    {
+        width: calc(25% - 16px);
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+    .first_section .services .service
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        min-height: 100px;
+        padding: 20px 40px 20px 20px;
+    }
+
+
+
+    /*-----------------
+        About block
+    -----------------*/
+    .about_block
+    {
+        margin-bottom: 64px;
+        padding: 72px 0;
+    }
+
+
+    .about_block .data .title
+    {
+        font-size: 36px;
+    }
+
+    .about_block .data .sub_title
+    {
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+
+    .about_block .data
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .about_block .data .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        width: calc(100% - 480px);
+        margin-top: 28px;
+    }
+
+
+    .about_block .presentation
+    {
+        width: 440px;
+        margin-top: -252px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .articles .row
+    {
+        margin-left: -24px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .articles .article .info
+    {
+        padding-top: 20px;
+    }
+
+    .articles .article .date
+    {
+        line-height: 14px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .articles .article .desc
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .banners .banner
+    {
+        height: 200px;
+        padding-top: 64px;
+        padding-right: 92px;
+    }
+
+    .banners .banner .info
+    {
+        width: 468px;
+    }
+
+    .banners .banner .name
+    {
+        font-size: 32px;
+    }
+
+    .banners .banner .price
+    {
+        font-size: 28px;
+    }
+
+    .banners .banner .desc
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .products .swiper-button-prev
+    {
+        left: -15px;
+
+        opacity: 1;
+    }
+
+    .products .swiper-button-next
+    {
+        right: -15px;
+
+        opacity: 1;
+    }
+
+
+    .products .product
+    {
+        padding: 19px;
+    }
+
+    .products .product .thumb
+    {
+        height: 180px;
+    }
+
+    .products .product .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .products .product .desc
+    {
+        font-size: 14px;
+
+        margin-top: 12px;
+    }
+
+    .products .product .price
+    {
+        font-size: 20px;
+
+        margin-top: 16px;
+    }
+
+    .products .product .link
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*------------
+        Brands
+    ------------*/
+    .brands
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .brands .swiper-button-prev
+    {
+        left: -15px;
+
+        opacity: 1;
+    }
+
+    .brands .swiper-button-next
+    {
+        right: -15px;
+
+        opacity: 1;
+    }
+
+
+    .brands .row > *
+    {
+        width: calc(20% - 24px);
+    }
+
+    .brands .row > *:nth-child(5) ~ *
+    {
+        display: none;
+    }
+
+
+    .brands .item
+    {
+        height: 100px;
+        padding: 8px;
+    }
+
+
+
+    /*------------
+        Why we
+    ------------*/
+    .why_we
+    {
+        margin-bottom: 64px;
+        padding: 72px 0;
+    }
+
+
+    .why_we .row
+    {
+        padding-top: 16px;
+    }
+
+
+    .why_we .item .icon
+    {
+        width: 52px;
+    }
+
+    .why_we .item .icon + div
+    {
+        width: calc(100% - 72px);
+    }
+
+    .why_we .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+    .why_we .item .desc
+    {
+        line-height: 20px;
+    }
+
+
+
+    /*-------------
+        Experts
+    -------------*/
+    .experts
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .experts .row > *
+    {
+        width: 25%;
+    }
+
+
+
+    /*------------------
+        Developments
+    ------------------*/
+    .developments
+    {
+        margin-bottom: 64px;
+    }
+
+
+    .developments .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .developments .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        margin-bottom: 64px;
+        padding: 72px 0;
+    }
+
+
+
+    /*-----------
+        Certs
+    -----------*/
+    .certs .swiper-button-prev
+    {
+        left: -15px;
+
+        opacity: 1;
+    }
+
+    .certs .swiper-button-next
+    {
+        right: -15px;
+
+        opacity: 1;
+    }
+
+
+    .certs .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .certs .row > *
+    {
+        width: calc(16.666% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .certs .cert .thumb
+    {
+        margin-bottom: 20px;
+    }
+
+    .certs .cert .thumb img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+
+
+    /*--------------
+        Partners
+    --------------*/
+    .partners .swiper-button-prev
+    {
+        left: -15px;
+
+        opacity: 1;
+    }
+
+    .partners .swiper-button-next
+    {
+        right: -15px;
+
+        opacity: 1;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        width: 100%;
+    }
+
+
+    footer .phone
+    {
+        position: absolute;
+        top: 108px;
+        right: 24px;
+
+        width: 200px;
+        margin-left: auto;
+    }
+
+
+    footer .text
+    {
+        width: calc(100% - 240px);
+    }
+
+
+    footer .typo
+    {
+        line-height: 20px;
+
+        width: 200px;
+        margin-top: 64px;
+    }
+}
