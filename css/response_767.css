@@ -783,6 +783,66 @@
 
 
 
+    /*-----------------------------
+        Educational center info
+    -----------------------------*/
+    .educational_center_info .head .title
+    {
+        font-size: 28px;
+    }
+
+    .educational_center_info .head .sub_title
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .educational_center_info .head .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*-------------------
+        Services list
+    -------------------*/
+    .services_list .row
+    {
+        margin-left: 0;
+    }
+
+    .services_list .row > *,
+    .services_list .row > *:nth-child(1),
+    .services_list .row > *:nth-child(2),
+    .services_list .row > *:nth-child(3)
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .services_list .service .name
+    {
+        font-size: 19px;
+
+        min-height: 52px;
+        padding-left: 72px;
+    }
+
+    .services_list .service .icon
+    {
+        max-width: 52px;
+        max-height: 52px;
+    }
+
+
+
+
     /*------------
         Footer
     ------------*/

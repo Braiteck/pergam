@@ -865,6 +865,141 @@
 
 
 
+    /*-----------------------------
+        Educational center info
+    -----------------------------*/
+    .educational_center_info .head .title
+    {
+        font-size: 34px;
+    }
+
+    .educational_center_info .head .sub_title
+    {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+    .educational_center_info .head .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    .educational_center_info .links
+    {
+        padding: 24px 0;
+    }
+
+
+    .educational_center_info .links .row
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: -24px;
+        padding: 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+    .educational_center_info .links .row::-webkit-scrollbar
+    {
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+    .educational_center_info .links .row::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .educational_center_info .links .row > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+    }
+
+    .educational_center_info .links .row > * + *
+    {
+        margin-left: 4px;
+    }
+
+
+    .educational_center_info .links a
+    {
+        padding: 11px 20px 7px;
+    }
+
+
+
+
+    /*----------------------
+        Directions study
+    ----------------------*/
+    .directions_study .thumb
+    {
+        padding-bottom: 53%;
+    }
+
+
+    .directions_study .data .name
+    {
+        font-size: 22px;
+    }
+
+
+
+    /*-------------------
+        Services list
+    -------------------*/
+    .services_list .row > *,
+    .services_list .row > *:nth-child(1),
+    .services_list .row > *:nth-child(2)
+    {
+        width: calc(50% - 40px);
+        max-width: calc(50% - 40px);
+    }
+
+    .services_list .row > *:nth-child(3)
+    {
+        width: calc(100% - 40px);
+        max-width: calc(100% - 40px);
+    }
+
+
+    .services_list .service .name
+    {
+        font-size: 20px;
+
+        min-height: 60px;
+    }
+
+
+    .services_list .service .desc
+    {
+        line-height: 21px;
+
+        margin-top: 16px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

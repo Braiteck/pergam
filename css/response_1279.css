@@ -268,6 +268,10 @@
     /*----------------
         Typography
     ----------------*/
+    .text_block
+    {
+        line-height: 23px;
+    }
 
 
 
@@ -1057,6 +1061,140 @@
     {
         font-size: 15px;
         line-height: 21px;
+    }
+
+
+
+    /*-----------------------------
+        Educational center info
+    -----------------------------*/
+    .educational_center_info .head
+    {
+        padding: 60px 0;
+    }
+
+
+    .educational_center_info .head .title
+    {
+        font-size: 40px;
+    }
+
+    .educational_center_info .head .sub_title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .educational_center_info .head .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        width: 628px;
+        margin-top: 36px;
+    }
+
+
+
+    .educational_center_info .links
+    {
+        padding: 24px 0;
+    }
+
+
+    .educational_center_info .links .row
+    {
+        margin-bottom: -2px;
+        margin-left: -2px;
+    }
+
+    .educational_center_info .links .row > *
+    {
+        margin-bottom: 2px;
+        margin-left: 2px;
+    }
+
+
+    .educational_center_info .links a
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        padding: 11px 16px 7px;
+    }
+
+
+
+
+    /*----------------------
+        Directions study
+    ----------------------*/
+    .directions_study .direction + .direction
+    {
+        margin-top: 40px;
+    }
+
+
+    .directions_study .thumb
+    {
+        width: 720px;
+        max-width: 100%;
+        padding-bottom: 380px;
+
+        order: 1;
+    }
+
+
+    .directions_study .data
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        order: 2;
+    }
+
+    .directions_study .data .name
+    {
+        font-size: 24px;
+    }
+
+
+
+    /*-------------------
+        Services list
+    -------------------*/
+    .services_list .row
+    {
+        margin-left: -40px;
+    }
+
+    .services_list .row > *,
+    .services_list .row > *:nth-child(1),
+    .services_list .row > *:nth-child(2),
+    .services_list .row > *:nth-child(3)
+    {
+        width: calc(33.333% - 40px);
+        max-width: calc(33.333% - 40px);
+        margin-left: 40px;
+    }
+
+
+    .services_list .service .name
+    {
+        font-size: 21px;
+
+        min-height: 64px;
+        padding-left: 80px;
+    }
+
+
+    .services_list .service .icon
+    {
+        max-width: 60px;
+        max-height: 60px;
     }
 
 

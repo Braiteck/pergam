@@ -367,9 +367,6 @@ $(() => {
 	})
 
 
-
-
-
 	// Страница товара
 	if ($('.product_info .images').length) {
 		const productThumbs = new Swiper('.product_info .thumbs.swiper-container', {

@@ -964,6 +964,141 @@
 
 
 
+    /*-----------------------------
+        Educational center info
+    -----------------------------*/
+    .educational_center_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    .educational_center_info .head
+    {
+        padding: 80px 0;
+    }
+
+
+    .educational_center_info .head .title
+    {
+        font-size: 48px;
+    }
+
+    .educational_center_info .head .sub_title
+    {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .educational_center_info .head .desc
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        width: 784px;
+        margin-top: 40px;
+    }
+
+
+
+    .educational_center_info .links
+    {
+        padding: 40px 0;
+    }
+
+
+    .educational_center_info .links .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .educational_center_info .links .row > *
+    {
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .educational_center_info .links a
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+
+    /*----------------------
+        Directions study
+    ----------------------*/
+    .directions_study .direction + .direction
+    {
+        margin-top: 52px;
+    }
+
+
+    .directions_study .data .name
+    {
+        font-size: 26px;
+    }
+
+
+    .directions_study .link
+    {
+        margin-top: 8px;
+    }
+
+    .directions_study .link a
+    {
+        height: 40px;
+    }
+
+
+
+    /*-------------------
+        Services list
+    -------------------*/
+    .services_list .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .services_list .row > *
+    {
+        max-width: calc(100% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+    .services_list .row > *:nth-child(1)
+    {
+        width: 340px;
+    }
+
+    .services_list .row > *:nth-child(2)
+    {
+        width: 340px;
+    }
+
+    .services_list .row > *:nth-child(3)
+    {
+        width: calc(100% - 800px);
+    }
+
+
+    .services_list .service .name
+    {
+        font-size: 22px;
+
+        min-height: 72px;
+        padding-left: 100px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
