@@ -184,6 +184,12 @@
     }
 
 
+    .breadcrumbs .sep
+    {
+        margin: 0 12px;
+    }
+
+
     .page_head .btns
     {
         margin-top: 32px;
@@ -209,6 +215,11 @@
     .block_head
     {
         margin-bottom: 24px;
+    }
+
+    .block_head.big_m
+    {
+        margin-bottom: 32px;
     }
 
 
@@ -545,6 +556,410 @@
     .certs .cert .thumb
     {
         margin-bottom: 24px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .head
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .product_info .data
+    {
+        width: 560px;
+    }
+
+
+    .product_info .product_name
+    {
+        font-size: 44px;
+        line-height: calc(100% + 8px);
+    }
+
+
+    .product_info .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .product_info .rating,
+    .product_info .articul,
+    .product_info .btns
+    {
+        margin-top: 28px;
+    }
+
+    .product_info .articul
+    {
+        margin-left: 32px;
+    }
+
+    .product_info .btns .btn + .btn
+    {
+        margin-left: 28px;
+    }
+
+
+    .product_info .buy
+    {
+        margin-top: 16px;
+        padding: 24px 32px;
+    }
+
+
+    .product_info .buy .price
+    {
+        font-size: 36px;
+    }
+
+    .product_info .buy .price .old
+    {
+        line-height: 28px;
+
+        margin-bottom: 8px;
+    }
+
+
+    .product_info .buy .buy_btn
+    {
+        font-size: 16px;
+
+        padding: 16px 36px 14px;
+    }
+
+
+    .product_info .buy .quike_buy_btn
+    {
+        margin-top: 12px;
+    }
+
+
+    .product_info .pluses
+    {
+        margin-top: 48px;
+        margin-bottom: -28px;
+        margin-left: -40px;
+    }
+
+    .product_info .pluses > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 28px;
+        margin-left: 40px;
+        padding-left: 44px;
+    }
+
+
+    .product_info .images
+    {
+        width: calc(100% - 580px);
+    }
+
+
+    .product_info .images .big
+    {
+        width: calc(100% - 106px);
+    }
+
+    .product_info .images .big .slide a
+    {
+        height: 560px;
+    }
+
+
+    .product_info .images .thumbs.swiper-container
+    {
+        padding: 33px 0;
+    }
+
+    .product_info .images .thumbs .swiper-button-prev
+    {
+        top: 0;
+    }
+
+    .product_info .images .thumbs .swiper-button-next
+    {
+        bottom: 0;
+    }
+
+
+
+    /*------------------
+        Product head
+    ------------------*/
+    .product_head
+    {
+        padding: 32px 0;
+    }
+
+
+    .product_head .name
+    {
+        font-size: 26px;
+
+        width: 300px;
+    }
+
+
+    .product_head .anchors
+    {
+        margin-left: 20px;
+    }
+
+    .product_head .anchors .btn
+    {
+        padding: 10px 12px 7px;
+    }
+
+
+    .product_head .download_link
+    {
+        margin-left: 20px;
+        padding: 12px 16px 10px;
+    }
+
+
+
+    /*----------------------
+        Product overview
+    ----------------------*/
+    .product_overview
+    {
+        margin-bottom: 80px;
+        padding: 120px 0;
+    }
+
+
+    .product_overview .data
+    {
+        width: 604px;
+    }
+
+
+    .product_overview .title
+    {
+        font-size: 48px;
+    }
+
+
+    .product_overview .sub_title
+    {
+        font-size: 28px;
+        line-height: 36px;
+
+        width: 568px;
+        margin-top: 20px;
+    }
+
+
+    .product_overview .desc
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------------
+        Product advantages
+    ------------------------*/
+    .product_advantages .spoler_btn
+    {
+        font-size: 13px;
+
+        padding: 15px 20px 12px;
+    }
+
+
+    .product_advantages .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .product_advantages .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+    .product_advantages .thumb
+    {
+        height: 280px;
+        margin-bottom: 28px;
+    }
+
+    .product_advantages .name
+    {
+        font-size: 22px;
+    }
+
+    .product_advantages .desc
+    {
+        line-height: 22px;
+    }
+
+
+
+    /*----------------------
+        Product features
+    ----------------------*/
+    .product_features .nice-select
+    {
+        width: 240px;
+    }
+
+    .product_features .nice-select .current
+    {
+        font-size: 13px;
+
+        padding: 13px 40px 10px 20px;
+    }
+
+    .product_features .nice-select .list .list_item
+    {
+        font-size: 13px;
+
+        padding: 8px 20px;
+    }
+
+
+    .product_features .filter .icon
+    {
+        right: 18px;
+    }
+
+
+
+    /*---------------
+        Documents
+    ---------------*/
+    .documents
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .documents .row
+    {
+        margin-bottom: -32px;
+        margin-left: -32px;
+    }
+
+    .documents .row > *
+    {
+        width: calc(33.333% - 32px);
+        margin-bottom: 32px;
+        margin-left: 32px;
+    }
+
+
+    .documents .document .thumb
+    {
+        width: 120px;
+        height: 169px;
+    }
+
+    .documents .document .thumb + *
+    {
+        width: calc(100% - 144px);
+        padding-top: 40px;
+    }
+
+
+    .documents .document .name
+    {
+        font-size: 17px;
+    }
+
+    .documents .document .info
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*------------------
+        Has question
+    ------------------*/
+    .has_question
+    {
+        padding: 60px 0;
+    }
+
+
+    .has_question .data
+    {
+        width: calc(100% - 600px);
+    }
+
+    .has_question .data .title
+    {
+        font-size: 36px;
+
+        margin-bottom: 20px;
+    }
+
+    .has_question .data .desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .has_question .data .btn
+    {
+        margin-top: 20px;
+        padding: 10px 24px 8px;
+    }
+
+
+    .has_question .manager
+    {
+        width: 520px;
+        padding: 36px;
+    }
+
+
+    .has_question .manager .photo + div
+    {
+        width: calc(100% - 186px);
+    }
+
+
+    .has_question .manager .name
+    {
+        font-size: 21px;
+    }
+
+
+    .has_question .manager .link
+    {
+        margin-top: 16px;
+    }
+
+    .has_question .manager .link a
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .has_question .manager .link .icon
+    {
+        bottom: 5px;
     }
 
 

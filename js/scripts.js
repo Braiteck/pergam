@@ -356,6 +356,61 @@ $(() => {
 			$('body').removeClass('search_open')
 		}
 	})
+
+
+	// Преимущества товара
+	$('.product_advantages .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.product_advantages .desc').toggleClass('show')
+	})
+
+
+
+
+
+	// Страница товара
+	if ($('.product_info .images').length) {
+		const productThumbs = new Swiper('.product_info .thumbs.swiper-container', {
+			loop: false,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			direction: 'vertical',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				768: {
+					slidesPerView: 5,
+					spaceBetween: 16
+				},
+				1440: {
+					slidesPerView: 5,
+					spaceBetween: 20
+				}
+			}
+		})
+
+		const productSlider = new Swiper('.product_info .big .swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			spaceBetween: 24,
+			slidesPerView: 1,
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			thumbs: {
+				swiper: productThumbs
+			}
+		})
+	}
 })
 
 

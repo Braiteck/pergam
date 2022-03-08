@@ -19,6 +19,31 @@ $(() => {
 	$(':root').css('--scroll_width', widthScroll() + 'px')
 
 
+	// Кастомный select
+	$('select').niceSelect()
+
+
+	// Fancybox
+	Fancybox.defaults.autoFocus = false
+	Fancybox.defaults.dragToClose = false
+	Fancybox.defaults.l10n = {
+		CLOSE: "Закрыть",
+		NEXT: "Следующий",
+		PREV: "Предыдущий",
+		MODAL: "Вы можете закрыть это модальное окно нажав клавишу ESC"
+	}
+
+	// Увеличение картинки
+	Fancybox.bind('.fancy_img', {
+		Image: {
+			zoom: false,
+		},
+		Thumbs: {
+			autoStart: false,
+		}
+	})
+
+
 	// Табы
 	var locationHash = window.location.hash
 
