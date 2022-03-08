@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#ab040c">
+		<meta name="theme-color" content="#ab040c">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css">
+		<link rel="stylesheet" href="css/swiper.css">
+		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/styles.css">
+
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)">
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)">
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)">
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)">
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)">
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close_search_btn">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+					</button>
+
+					<div class="info">
+						<div class="cont row">
+							<button class="menu_btn">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+							</button>
+
+							<div class="contacts">
+								<div class="location">
+									<div class="current">
+										<span>Нижний Новгород</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+									</div>
+								</div>
+
+								<div class="phone">
+									<a href="tel:+78312160864">+7 (831) 216-08-64</a>
+								</div>
+							</div>
+
+							<div class="menu">
+								<div><a href="/">Каталог</a></div>
+								<div><a href="/">Производители</a></div>
+								<div><a href="/">Услуги</a></div>
+								<div><a class="active">О компании</a></div>
+								<div><a href="/">Обучение</a></div>
+								<div><a href="/">Меропрития</a></div>
+								<div><a href="/">Пресс-центр</a></div>
+								<div><a href="/">Сервисный центр</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+
+							<button class="feedback_btn">обратная связь</button>
+
+							<div class="links">
+								<div class="hide"><button class="mob_feedback_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_feedback"></use></svg>
+								</button></div>
+
+								<div><a href="/" class="compare_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+								</a></div>
+
+								<div><a href="/" class="favorite_link">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								</a></div>
+
+								<div><a href="/" class="cart_link active">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+									<div class="count">3</div>
+								</a></div>
+							</div>
+						</div>
+					</div>
+
+					<div class="bottom">
+						<div class="cont row">
+							<a href="/" class="logo">
+								<img src="images/logo.png" alt="">
+							</a>
+
+							<div class="search">
+								<form action="">
+									<input type="text" name="" value="" class="input"
+											data-placeholder="Какое измерительное оборудование вам требуется?"
+											data-mob-placeholder="Какое оборудование требуется?">
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="contacts_info tabs_container">
+					<section class="head">
+						<div class="cont">
+							<h1 class="page_title">Контактная информация</h1>
+
+							<div class="tabs">
+								<div class="row">
+									<button data-content="#tab1" data-level="level1" class="active">
+										<span>Москва</span>
+									</button>
+
+									<button data-content="#tab2" data-level="level1">
+										<span>Санкт-Петербург</span>
+									</button>
+
+									<button data-content="#tab3" data-level="level1">
+										<span>Нижний Новгород</span>
+									</button>
+
+									<button data-content="#tab4" data-level="level1">
+										<span>Самара</span>
+									</button>
+
+									<button data-content="#tab5" data-level="level1">
+										<span>Екатеринбург</span>
+									</button>
+
+									<button data-content="#tab6" data-level="level1">
+										<span>Новосибирск</span>
+									</button>
+
+									<button data-content="#tab7" data-level="level1">
+										<span>Хабаровск</span>
+									</button>
+								</div>
+
+								<div class="row">
+									<button data-content="#tab8" data-level="level1">
+										<img src="images/flag_ua.svg" alt="">
+										<span>Киев</span>
+									</button>
+
+									<button data-content="#tab9" data-level="level1">
+										<img src="images/flag_bl.svg" alt="">
+										<span>Минск</span>
+									</button>
+
+									<button data-content="#tab10" data-level="level1">
+										<img src="images/flag_kz.svg" alt="">
+										<span>Нур-Султан</span>
+									</button>
+
+									<button data-content="#tab11" data-level="level1">
+										<span>Дальнее зарубежье</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</section>
+
+
+					<div class="cont">
+						<section class="tab_content level1 active" id="tab1">
+							<section class="data">
+								<div class="row">
+									<div class="company">АО «Пергам Инжиниринг»</div>
+
+									<a href="/" class="download_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_download"></use></svg>
+										<span>Скачать реквизиты</span>
+									</a>
+								</div>
+
+								<div class="info row">
+									<div class="item">
+										<div class="title">
+											<img src="images/ic_contacts_phone.svg" alt="" class="icon">
+											<span>Контакты</span>
+										</div>
+
+										<div class="contacts">
+											<div>
+												<div class="name">Телефон</div>
+
+												<div class="val">
+													<div><a href="tel:+74957757525">+7 (495) 775-75-25</a></div>
+												</div>
+											</div>
+
+											<div>
+												<div class="name">Email</div>
+
+												<div class="val">
+													<div><a href="mailto:info@pergam.ru">info@pergam.ru</a></div>
+													<div>
+														<a href="mailto:vip@pergam.ru ">vip@pergam.ru</a>
+														<div class="exp">по вопросам партнерства</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="title">
+											<img src="images/ic_contacts_time.svg" alt="" class="icon">
+											<span>Время работы</span>
+										</div>
+
+										<div class="time">
+											<div>Пн-пт с 9:00 до 18:00.</div>
+											<span>Сейчас в Москве — 23:31.</span>
+										</div>
+									</div>
+
+									<div class="item">
+										<div class="title">
+											<img src="images/ic_contacts_location.svg" alt="" class="icon">
+											<span>Адрес</span>
+										</div>
+
+										<div class="location">
+											<div>
+												<div class="name">Почтовый адрес</div>
+												<div class="val">107023, Москва, ул. Электрозаводская, д. 27, стр. 8.</div>
+											</div>
+
+											<div>
+												<div class="name">Офис</div>
+												<div class="val">Москва, ул. Электрозаводская, 27с8, БЦ «Лефорт»</div>
+											</div>
+
+											<div>
+												<div class="name">Склад</div>
+												<div class="val">
+													<div>Москва, Электрозаводская улица, 21с21, проходная №4</div>
+													<div class="exp">На территории склада действует пропускная система. <a href="/">Проложить маршрут →</a>.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="map">
+
+							</section>
+
+
+							<section class="team">
+								<div class="block_head big_m">
+									<div class="title mini">Руководители отделов продаж</div>
+								</div>
+
+								<div class="row">
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo1.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Константин Ткачёв</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Поиск и диагностика<br> подземных коммуникаций</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a> доб. 301</div>
+											<div><a href="mailto:rd@pergam.ru">rd@pergam.ru</a></div>
+										</div>
+									</div>
+
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo2.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Николай Горохов</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Электроэнергетический отдел</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a> доб. 444</div>
+											<div><a href="mailto:electro@pergam.ru">electro@pergam.ru</a></div>
+										</div>
+									</div>
+
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo3.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Александр Кудрявцев</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Тепловизоры. Мачты. ОЕМ</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a> доб. 314</div>
+											<div><a href="mailto:sb@pergam.ru">sb@pergam.ru</a></div>
+										</div>
+									</div>
+
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo4.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Денис Комиссаров</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Контроль технологических процессов</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a> доб. 297</div>
+											<div><a href="mailto:pci@pergam.ru">pci@pergam.ru</a></div>
+										</div>
+									</div>
+
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo5.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Константин Сливенко</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Поиск утечек газа</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a></div>
+											<div><a href="mailto:gasleak@pergam.ru">gasleak@pergam.ru</a></div>
+										</div>
+									</div>
+
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo6.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Игорь Любич</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Неразрушающий контроль</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a> доб. 193</div>
+											<div><a href="mailto:ndt@pergam.ru">ndt@pergam.ru</a></div>
+										</div>
+									</div>
+
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo7.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Роман Ряполов</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Тепловизоры и УФ-камеры</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a> доб. 148</div>
+											<div><a href="mailto:ir@pergam.ru">ir@pergam.ru</a></div>
+										</div>
+									</div>
+
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo8.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Дмитрий Михайлов</div>
+
+										<div class="link">
+											<a href="/">
+												<span>Cервисный центр</span>
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_arrow_right2"></use></svg>
+											</a>
+										</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74957757525">+7 (495) 775-75-25</a> доб. 296</div>
+											<div><a href="mailto:mikhaylov@pergam.ru">mikhaylov@pergam.ru</a></div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+
+							<section class="team">
+								<div class="block_head big_m">
+									<div class="title mini">Региональный представитель</div>
+								</div>
+
+								<div class="row">
+									<div class="person">
+										<div class="photo">
+											<img data-src="images/tmp/person_photo9.jpg" alt="" class="lozad">
+										</div>
+
+										<div class="name">Роман Евдокимов</div>
+
+										<div class="location">Хабаровск</div>
+
+										<div class="contacts">
+											<div><a href="tel:+74212929071">+7 (4212) 92-90-71</a> доб. 270</div>
+											<div><a href="mailto:eudokimov@pergam.ru">eudokimov@pergam.ru</a></div>
+										</div>
+									</div>
+								</div>
+							</section>
+						</section>
+
+
+						<section class="tab_content level1" id="tab2">
+
+						</section>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="info">
+					<div class="cont row">
+						<div class="menu">
+							<div><a href="/">Каталог</a></div>
+							<div><a href="/">Услуги</a></div>
+							<div><a href="/">О компании</a></div>
+							<div><a href="/">Обучение</a></div>
+							<div><a href="/">Меропрития</a></div>
+							<div><a href="/">Пресс-центр</a></div>
+							<div><a href="/">Сервисный центр</a></div>
+							<div><a href="/">Контакты</a></div>
+						</div>
+
+						<div class="phone">
+							<a href="tel:+78312160864">+7 (831) 216-08-64</a>
+						</div>
+
+						<div class="text">
+							Информация на сайте носит справочный характер и не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса Российской Федерации. Технические параметры (спецификация) и комплект поставки товара могут быть изменены производителем без предварительного уведомления. Уточняйте информацию у наших менеджеров.
+						</div>
+
+						<div class="typo">
+							Нашли опечатку?<br> Нажмите Ctrl + Enter Спасибо!<br> Система Orphus
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont row">
+						<div class="copyright">&copy; 1996-2021, АО «Пергам-Инжиниринг»</div>
+
+						<div class="socials">
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<img src="images/ic_instagram.png" alt="" class="icon">
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_vkontakte"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_youtube"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_facebook"></use></svg>
+							</a>
+
+							<a href="/" target="_blank" rel="noopener nofollow">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_twitter"></use></svg>
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<div class="supports_error">
+			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
+		</div>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.5.0.min.js"></script>
+		<script src="js/lozad.min.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/nice-select.js"></script>
+		<script src="js/fancybox.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

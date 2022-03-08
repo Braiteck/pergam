@@ -4621,6 +4621,7 @@ header .search .tags a:hover
 
     padding-right: 20px;
 
+    transition: color .2s linear;
     vertical-align: top;
     text-decoration: none;
 }
@@ -4635,6 +4636,11 @@ header .search .tags a:hover
 
     width: 8px;
     height: 12px;
+}
+
+.has_question .manager .link a:hover
+{
+    color: #ce171e;
 }
 
 
@@ -4993,6 +4999,469 @@ header .search .tags a:hover
     line-height: 22px;
 
     margin-top: 20px;
+}
+
+
+
+/*-------------------
+    Contacts info
+-------------------*/
+.contacts_info .head
+{
+    margin-bottom: 76px;
+    padding: 50px 0 40px;
+
+    background: rgba(22, 48, 71, .1);
+}
+
+
+.contacts_info .head .tabs
+{
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.contacts_info .head .tabs .row
+{
+    margin-left: -8px;
+}
+
+.contacts_info .head .tabs button,
+.contacts_info .head .tabs button + button
+{
+    margin-left: 8px;
+}
+
+
+.contacts_info .head .tabs .row + .row
+{
+    margin-top: 28px;
+}
+
+
+.contacts_info .head .tabs button
+{
+    display: flex;
+
+    white-space: nowrap;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+.contacts_info .head .tabs button span
+{
+    border: none;
+}
+
+.contacts_info .head .tabs button img
+{
+    position: relative;
+    top: -2px;
+
+    display: block;
+
+    width: 30%;
+    height: 18px;
+    margin-right: 10px;
+}
+
+
+
+.contacts_info .data
+{
+    margin-bottom: 50px;
+}
+
+
+.contacts_info .data .company
+{
+    color: #163047;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+
+.contacts_info .data .download_link
+{
+    color: var(--text_color);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+
+    display: flex;
+
+    margin-left: auto;
+    padding: 12px 16px 10px;
+
+    transition: .2s linear;
+    text-decoration: none;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+
+    border-radius: 5px;
+    background: #f0f0f0;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contacts_info .data .download_link .icon
+{
+    position: relative;
+    top: -1px;
+
+    display: block;
+
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+}
+
+.contacts_info .data .download_link:hover
+{
+    color: #fff;
+
+    background: #ce171e;
+}
+
+
+
+.contacts_info .info
+{
+    margin-top: 40px;
+
+    justify-content: space-between;
+}
+
+
+.contacts_info .info .title
+{
+    color: #163047;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+
+    display: flex;
+
+    margin-bottom: 17px;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.contacts_info .info .title .icon
+{
+    position: relative;
+    top: -1px;
+
+    display: block;
+
+    margin-right: 20px;
+}
+
+
+.contacts_info .info .contacts
+{
+    padding-left: 48px;
+}
+
+
+.contacts_info .info .contacts > *
+{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contacts_info .info .contacts > * + *
+{
+    margin-top: 6px;
+}
+
+
+.contacts_info .info .contacts .name
+{
+    font-size: 18px;
+    line-height: 34px;
+
+    width: 97px;
+    padding-right: 17px;
+}
+
+.contacts_info .info .contacts .val
+{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+
+    width: calc(100% - 97px);
+}
+
+.contacts_info .info .contacts a
+{
+    color: #ce171e;
+
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.contacts_info .info .contacts .exp
+{
+    font-size: 14px;
+    line-height: 100%;
+}
+
+
+.contacts_info .info .time
+{
+    font-size: 18px;
+    line-height: 24px;
+
+    padding-left: 60px;
+}
+
+.contacts_info .info .time span
+{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+
+    display: block;
+}
+
+
+.contacts_info .info .location
+{
+    padding-left: 54px;
+}
+
+
+.contacts_info .info .location > *
+{
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.contacts_info .info .location > * + *
+{
+    margin-top: 6px;
+}
+
+
+.contacts_info .info .location .name
+{
+    font-size: 18px;
+    line-height: 34px;
+
+    width: 171px;
+    padding-right: 17px;
+}
+
+
+.contacts_info .info .location .val
+{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+
+    width: calc(100% - 171px);
+}
+
+.contacts_info .info .location .exp
+{
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.contacts_info .info .location .exp a
+{
+    color: #ce171e;
+
+    text-decoration: none;
+}
+
+
+
+.contacts_info .map
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 400px;
+    margin-bottom: 70px;
+
+    border-radius: 20px;
+    background: #ddd;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .07);
+}
+
+
+
+/*----------
+    Team
+----------*/
+.team
+{
+    margin-bottom: 70px;
+}
+
+
+.team .row
+{
+    margin-bottom: -40px;
+    margin-left: -40px;
+
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.team .row > *
+{
+    width: calc(25% - 40px);
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+
+.team .person
+{
+    padding: 39px 39px 56px;
+
+    transition: .2s linear;
+
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    background: #fff;
+}
+
+
+.team .person .photo
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+
+    border-radius: 50%;
+    background: #ddd;
+}
+
+.team .person .photo img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.team .person .name
+{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+
+.team .person .location
+{
+    color: #163047;
+    font-size: 18px;
+    line-height: 24px;
+
+    margin-top: 12px;
+}
+
+
+.team .person .link
+{
+    margin-top: 20px;
+}
+
+.team .person .link a
+{
+    color: #163047;
+    font-size: 18px;
+    line-height: 24px;
+
+    display: inline-block;
+
+    transition: color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+}
+
+.team .person .link .icon
+{
+    position: relative;
+    top: -1px;
+
+    display: inline-block;
+
+    width: 8px;
+    height: 12px;
+    margin-left: 8px;
+
+    vertical-align: middle;
+}
+
+.team .person .link a:hover
+{
+    color: #ce171e;
+}
+
+
+.team .person .contacts
+{
+    font-weight: 300;
+    line-height: 22px;
+
+    margin-top: 16px;
+}
+
+.team .person .contacts > * + *
+{
+    margin-top: 6px;
+}
+
+.team .person .contacts a
+{
+    color: #ce171e;
+
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
+.team .person:hover
+{
+    border-color: transparent;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .07);
 }
 
 

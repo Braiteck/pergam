@@ -1000,6 +1000,124 @@
 
 
 
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .head
+    {
+        padding: 40px 0;
+    }
+
+
+    .contacts_info .head .tabs
+    {
+        margin-top: 24px;
+    }
+
+
+    .contacts_info .data .company
+    {
+        font-size: 28px;
+    }
+
+
+    .contacts_info .data .download_link
+    {
+        line-height: 19px;
+
+        padding: 10px 16px 8px;
+    }
+
+
+    .contacts_info .info > *
+    {
+        width: calc(50% - 12px);
+    }
+
+    .contacts_info .info > *:last-child
+    {
+        width: 100%;
+        margin-top: 32px;
+    }
+
+
+
+    .contacts_info .info .contacts > *
+    {
+        display: flex;
+    }
+
+    .contacts_info .info .contacts .name
+    {
+        line-height: 23px;
+
+        width: 92px;
+        margin-bottom: 0;
+        padding-right: 16px;
+    }
+
+    .contacts_info .info .contacts .val
+    {
+        width: calc(100% - 92px);
+    }
+
+    .contacts_info .info .contacts .exp
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        margin-top: 0;
+    }
+
+
+    .contacts_info .info .location > *
+    {
+        display: flex;
+    }
+
+    .contacts_info .info .location .name
+    {
+        line-height: 23px;
+
+        width: 144px;
+        margin-bottom: 0;
+        padding-right: 16px;
+    }
+
+    .contacts_info .info .location .val
+    {
+        width: calc(100% - 144px);
+    }
+
+    .contacts_info .info .location .exp
+    {
+        margin-top: 0;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 340px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .team .person
+    {
+        padding: 31px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

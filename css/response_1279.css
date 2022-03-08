@@ -35,7 +35,7 @@
     ----------*/
     .tabs
     {
-        margin-bottom: 24px;
+        margin-bottom: 22px;
         margin-left: -12px;
     }
 
@@ -46,6 +46,7 @@
         line-height: 21px;
 
         height: auto;
+        margin-bottom: 2px;
         margin-left: 12px;
         padding: 10px 16px 6px;
     }
@@ -1195,6 +1196,166 @@
     {
         max-width: 60px;
         max-height: 60px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .head .tabs .row + .row
+    {
+        margin-top: 0;
+    }
+
+
+    .contacts_info .data
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .contacts_info .data .company
+    {
+        font-size: 32px;
+    }
+
+
+    .contacts_info .info
+    {
+        margin-top: 32px;
+    }
+
+    .contacts_info .info > *:last-child
+    {
+        width: calc(100% - 536px);
+    }
+
+
+    .contacts_info .info .title
+    {
+        font-size: 20px;
+    }
+
+    .contacts_info .info .title .icon
+    {
+        max-height: 32px;
+        margin-right: 12px;
+    }
+
+
+    .contacts_info .info .contacts
+    {
+        padding-left: 35px;
+    }
+
+    .contacts_info .info .contacts > *
+    {
+        display: block;
+    }
+
+    .contacts_info .info .contacts > * + *
+    {
+        margin-top: 12px;
+    }
+
+    .contacts_info .info .contacts .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: auto;
+        margin-bottom: 4px;
+        padding-right: 0;
+    }
+
+    .contacts_info .info .contacts .val
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: auto;
+    }
+
+    .contacts_info .info .contacts .exp
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        margin-top: 4px;
+    }
+
+
+    .contacts_info .info .time
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        padding-left: 44px;
+    }
+
+
+    .contacts_info .info .location
+    {
+        padding-left: 40px;
+    }
+
+    .contacts_info .info .location > *
+    {
+        display: block;
+    }
+
+    .contacts_info .info .location > * + *
+    {
+        margin-top: 12px;
+    }
+
+    .contacts_info .info .location .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: auto;
+        margin-bottom: 4px;
+        padding-right: 0;
+    }
+
+    .contacts_info .info .location .val
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        width: auto;
+    }
+
+    .contacts_info .info .location .exp
+    {
+        font-size: 12px;
+        line-height: 16px;
+
+        margin-top: 4px;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 360px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .row > *
+    {
+        width: calc(33.333% - 24px);
+    }
+
+
+    .team .person
+    {
+        padding: 23px;
     }
 
 

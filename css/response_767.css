@@ -842,6 +842,127 @@
 
 
 
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .company
+    {
+        font-size: 26px;
+
+        width: 100%;
+    }
+
+
+    .contacts_info .data .download_link
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .info > *
+    {
+        width: 100%;
+    }
+
+    .contacts_info .info > * + *,
+    .contacts_info .info > *:last-child
+    {
+        margin-top: 28px;
+    }
+
+
+    .contacts_info .info .title
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .contacts_info .info .location > *
+    {
+        display: block;
+    }
+
+    .contacts_info .info .location .name
+    {
+        width: auto;
+        padding-right: 0;
+    }
+
+    .contacts_info .info .location .val
+    {
+        width: auto;
+    }
+
+
+    .contacts_info .map
+    {
+        height: 320px;
+    }
+
+
+
+    /*----------
+        Team
+    ----------*/
+    .team .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .team .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .team .person
+    {
+        padding: 19px;
+    }
+
+
+    .team .person .photo
+    {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 20px;
+    }
+
+    .team .person .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .team .person .link
+    {
+        margin-top: 12px;
+    }
+
+    .team .person .location,
+    .team .person .link a
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .team .person .link .icon
+    {
+        margin-left: 4px;
+    }
+
+
+    .team .person .contacts
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
 
     /*------------
         Footer
