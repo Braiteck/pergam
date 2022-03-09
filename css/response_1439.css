@@ -5,6 +5,7 @@
     -------------------*/
     :root
     {
+        --sidebar_width: 308px;
         --font_size: 15px;
         --font_size_title: 36px;
     }
@@ -14,6 +15,18 @@
     {
         width: 5px;
         height: 5px;
+    }
+
+
+
+    .content_flex
+    {
+        margin-bottom: 72px;
+    }
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 32px);
     }
 
 
@@ -171,6 +184,59 @@
     {
         font-size: 22px;
         line-height: 24px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .filter
+    {
+        padding: 32px;
+    }
+
+
+    aside .filter .item + .item
+    {
+        margin-top: 28px;
+    }
+
+
+    aside .filter .name
+    {
+        font-size: 22px;
+    }
+
+    aside .filter .name .icon
+    {
+        top: 3px;
+    }
+
+
+    aside .filter .data
+    {
+        margin-top: 16px;
+    }
+
+
+    aside .filter .field
+    {
+        margin-left: -16px;
+    }
+
+
+    aside .filter label
+    {
+        font-size: 16px;
+
+        padding: 10px 46px 8px 16px;
+    }
+
+
+    aside .filter .submit
+    {
+        margin-top: 32px;
     }
 
 
@@ -377,12 +443,48 @@
 
 
 
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .products_head .views .btn + .btn
+    {
+        margin-left: 16px;
+    }
+
+
+
     /*--------------
         Products
     --------------*/
     .products
     {
         margin-bottom: 72px;
+    }
+
+
+    .products .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .products .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .content .products .row > *
+    {
+        width: calc(33.333% - 24px);
     }
 
 
@@ -400,6 +502,49 @@
     {
         font-size: 19px;
         line-height: 23px;
+    }
+
+
+    .products .product .link
+    {
+        padding: 11px 16px 7px;
+    }
+
+
+    .products .product .btns .btn
+    {
+        width: 28px;
+        height: 28px;
+    }
+
+    .products .product .btns .btn + .btn
+    {
+        margin-left: 16px;
+    }
+
+
+
+    .products .list > * + *
+    {
+        margin-top: 24px;
+    }
+
+
+    .products .list .product
+    {
+        padding: 23px;
+    }
+
+    .products .list .product .info
+    {
+        width: calc(100% - 401px);
+    }
+
+    .products .list .product .btns
+    {
+        width: 150px;
+        margin-left: 0;
+        padding: 0;
     }
 
 
@@ -1023,7 +1168,6 @@
 
 
 
-
     /*----------------------
         Directions study
     ----------------------*/
@@ -1354,6 +1498,63 @@
     .service_center_services .thumb
     {
         margin-bottom: 24px;
+    }
+
+
+
+    /*------------------
+        Catalog info
+    ------------------*/
+    .catalog_info .head
+    {
+        padding: 50px 0;
+    }
+
+
+    .catalog_info .head .title
+    {
+        font-size: 48px;
+    }
+
+    .catalog_info .head .download_link
+    {
+        margin-top: 3px;
+    }
+
+    .catalog_info .head .desc
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        width: 784px;
+        margin-top: 40px;
+    }
+
+
+
+    .catalog_info .links
+    {
+        padding: 40px 0;
+    }
+
+
+    .catalog_info .links .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .catalog_info .links .row > *
+    {
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .catalog_info .links a
+    {
+        font-size: 16px;
+        line-height: 20px;
     }
 
 

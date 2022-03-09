@@ -462,9 +462,32 @@
 
 
 
+    /*-------------------
+        Products head
+    -------------------*/
+    .products_head .views
+    {
+        display: none;
+    }
+
+
+
     /*--------------
         Products
     --------------*/
+    .products .row,
+    .content .products .row
+    {
+        --products_count: 2;
+    }
+
+    .products .row > *,
+    .content .products .row > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
     .products .product .sticker
     {
         top: 11px;
@@ -971,6 +994,32 @@
     }
 
     .service_center_info .head .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 28px;
+    }
+
+
+
+    /*------------------
+        Catalog info
+    ------------------*/
+    .catalog_info .head .title
+    {
+        font-size: 28px;
+    }
+
+
+    .catalog_info .head .download_link
+    {
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+
+    .catalog_info .head .desc
     {
         font-size: 14px;
         line-height: 20px;

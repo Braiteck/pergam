@@ -408,6 +408,80 @@ $(() => {
 			}
 		})
 	}
+
+
+	// Боковая колонка - Фильтр
+	$('.mob_filter_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
+	})
+
+
+	$('aside .filter .name').click(function (e) {
+		e.preventDefault()
+
+		let parent = $(this).closest('.item')
+
+		$(this).toggleClass('active')
+		parent.find('.data').slideToggle(300)
+	})
+
+
+	// Сортировка
+	$('.sort .btn').click(function (e) {
+		e.preventDefault()
+
+		if ($(this).hasClass('down')) {
+			$('.sort .btn').removeClass('down up')
+			$(this).addClass('up')
+			return false
+		}
+
+		if ($(this).hasClass('up')) {
+			$('.sort .btn').removeClass('down up')
+			return false
+		}
+
+		if (!$(this).hasClass('up') && !$(this).hasClass('down')) {
+			$('.sort .btn').removeClass('down up')
+			$(this).addClass('down')
+		}
+	})
+
+
+	// Изменение вида отображения товаров
+	$('.products_head .views .grid_btn').click(function (e) {
+		e.preventDefault()
+
+		$('.products_head .views .btn').removeClass('active')
+		$(this).addClass('active')
+
+		$('.products .list').addClass('row').removeClass('list')
+	})
+
+	$('.products_head .views .list_btn').click(function (e) {
+		e.preventDefault()
+
+		$('.products_head .views .btn').removeClass('active')
+		$(this).addClass('active')
+
+		$('.products .row').addClass('list').removeClass('row')
+	})
+
+
+	if ($(window).width() < 768) {
+		$('.products .list').addClass('row').removeClass('list')
+	}
+})
+
+
+
+$(window).on('load', () => {
+	// Выравнивание элементов в сетке
+	$('.products .row').each(function () {
+		productHeight($(this), parseInt($(this).css('--products_count')))
+	})
 })
 
 
@@ -417,6 +491,18 @@ $(window).resize(() => {
 		if ($(window).width() != WW) {
 			// Поиск
 			setPlaceholder()
+
+
+			// Выравнивание элементов в сетке
+			$('.products .row').each(function () {
+				productHeight($(this), parseInt($(this).css('--products_count')))
+			})
+
+
+			// Изменение вида отображения товаров
+			if ($(window).width() < 768) {
+				$('.products .list').addClass('row').removeClass('list')
+			}
 		}
 	})
 })
