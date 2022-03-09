@@ -1500,6 +1500,11 @@ header .search .tags a:hover
     margin-top: 24px;
 }
 
+.block_head .desc.full_w
+{
+    width: 100%;
+}
+
 
 .block_head .all_link
 {
@@ -1575,6 +1580,40 @@ header .search .tags a:hover
 .text_block > :first-child
 {
     margin-top: 0 !important;
+}
+
+
+.text_block ul li
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    padding-left: 22px;
+
+    list-style-type: none;
+}
+
+.text_block ul li + li
+{
+    margin-top: 8px;
+}
+
+.text_block ul li:before
+{
+    position: absolute;
+    top: 11px;
+    left: 0;
+
+    display: block;
+
+    width: 10px;
+    height: 1px;
+
+    content: '';
+
+    background: #ce171e;
 }
 
 
@@ -4926,38 +4965,29 @@ header .search .tags a:hover
 -------------------*/
 .services_list
 {
+    margin-bottom: 76px;
     padding: 60px 0 52px;
 
     background: rgba(22, 48, 71, .03);
+}
+
+.services_list.no_margin
+{
+    margin-bottom: 0;
 }
 
 
 .services_list .row
 {
     margin-bottom: -40px;
-    margin-left: -80px;
+    margin-left: -40px;
 }
 
 .services_list .row > *
 {
-    max-width: calc(100% - 80px);
+    width: calc(33.333% - 40px);
     margin-bottom: 40px;
-    margin-left: 80px;
-}
-
-.services_list .row > *:nth-child(1)
-{
-    width: 340px;
-}
-
-.services_list .row > *:nth-child(2)
-{
-    width: 424px;
-}
-
-.services_list .row > *:nth-child(3)
-{
-    width: calc(100% - 1004px);
+    margin-left: 40px;
 }
 
 
@@ -4999,6 +5029,44 @@ header .search .tags a:hover
     line-height: 22px;
 
     margin-top: 20px;
+}
+
+
+.services_list .service .link
+{
+    margin-top: 6px;
+}
+
+.services_list .service .link a
+{
+    color: #ce171e;
+    font-size: 14px;
+    line-height: 100%;
+
+    display: flex;
+
+    height: 55px;
+
+    text-decoration: none;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.services_list .service .link .icon
+{
+    position: relative;
+    top: -2px;
+
+    display: block;
+
+    width: 6px;
+    height: 10px;
+    margin-left: 10px;
 }
 
 
@@ -5398,6 +5466,24 @@ header .search .tags a:hover
 }
 
 
+.team .person .post
+{
+    line-height: 22px;
+
+    margin-top: 10px;
+}
+
+
+.team .person .desc
+{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+
+    margin-top: 12px;
+}
+
+
 .team .person .link
 {
     margin-top: 20px;
@@ -5441,7 +5527,7 @@ header .search .tags a:hover
     font-weight: 300;
     line-height: 22px;
 
-    margin-top: 16px;
+    margin-top: 20px;
 }
 
 .team .person .contacts > * + *
@@ -5462,6 +5548,224 @@ header .search .tags a:hover
 {
     border-color: transparent;
     box-shadow: 0 5px 30px rgba(0, 0, 0, .07);
+}
+
+
+
+/*-------------------------
+    Service center info
+-------------------------*/
+.service_center_info
+{
+    margin-bottom: 66px;
+}
+
+
+
+.service_center_info .head
+{
+    color: #fff;
+
+    position: relative;
+    z-index: 3;
+
+    overflow: hidden;
+
+    padding: 100px 0;
+
+    background: #ddd;
+}
+
+.service_center_info .head:after
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background: linear-gradient(0deg, rgba(22, 48, 71, .7), rgba(22, 48, 71, .7));
+}
+
+
+.service_center_info .head .title
+{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 100%;
+
+    text-shadow: 0 5px 15px rgba(0, 0, 0, .07);
+}
+
+.service_center_info .head .desc
+{
+    font-size: 30px;
+    line-height: calc(100% + 6px);
+
+    width: 984px;
+    max-width: 100%;
+    margin-top: 48px;
+}
+
+.service_center_info .head .link
+{
+    margin-top: 60px;
+}
+
+.service_center_info .head .link a
+{
+    color: #fff;
+    font-weight: 500;
+    line-height: 20px;
+
+    display: inline-block;
+
+    padding: 16px 30px 14px;
+
+    vertical-align: top;
+    text-decoration: none;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+
+    border-radius: 7px;
+    background: #e17378;
+}
+
+
+.service_center_info .head .bg
+{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+
+.service_center_info .links
+{
+    padding: 50px 0 48px;
+
+    background: rgba(22, 48, 71, .1);
+}
+
+
+.service_center_info .links .row
+{
+    margin-bottom: -16px;
+    margin-left: -16px;
+}
+
+.service_center_info .links .row > *
+{
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+
+.service_center_info .links a
+{
+    color: #ce171e;
+    font-size: 18px;
+    line-height: 20px;
+
+    display: inline-block;
+
+    padding: 12px 20px 8px;
+
+    transition: .2s linear;
+    vertical-align: top;
+    white-space: nowrap;
+    text-decoration: none;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+
+    border-radius: 6px;
+}
+
+.service_center_info .links a:hover,
+.service_center_info .links a.active
+{
+    color: var(--text_color);
+
+    background: #fff;
+}
+
+
+
+/*-----------------------------
+    Service center services
+-----------------------------*/
+.service_center_services
+{
+    margin-bottom: 60px;
+}
+
+
+.service_center_services .row
+{
+    margin-bottom: -60px;
+    margin-left: -60px;
+}
+
+.service_center_services .row > *
+{
+    width: calc(50% - 60px);
+    margin-bottom: 60px;
+    margin-left: 60px;
+}
+
+
+.service_center_services .title
+{
+    color: #163047;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 100%;
+
+    margin-bottom: 32px;
+}
+
+
+.service_center_services .thumb
+{
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 35px;
+    padding-bottom: 42.86%;
+
+    border-radius: 10px;
+    background: #ddd;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+}
+
+.service_center_services .thumb img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    border-radius: inherit;
+
+    object-fit: cover;
 }
 
 

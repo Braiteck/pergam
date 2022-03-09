@@ -816,9 +816,7 @@
     }
 
     .services_list .row > *,
-    .services_list .row > *:nth-child(1),
-    .services_list .row > *:nth-child(2),
-    .services_list .row > *:nth-child(3)
+    .services_list .row > *:last-child
     {
         width: 100%;
         max-width: 100%;
@@ -907,21 +905,21 @@
     ----------*/
     .team .row
     {
-        margin-bottom: -12px;
-        margin-left: -12px;
+        margin-bottom: 20px;
+        margin-left: 0;
     }
 
     .team .row > *
     {
-        width: calc(50% - 12px);
-        margin-bottom: 12px;
-        margin-left: 12px;
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
     }
 
 
     .team .person
     {
-        padding: 19px;
+        padding: 23px;
     }
 
 
@@ -960,6 +958,24 @@
     {
         font-size: 14px;
         line-height: 20px;
+    }
+
+
+
+    /*-------------------------
+        Service center info
+    -------------------------*/
+    .service_center_info .head .title
+    {
+        font-size: 28px;
+    }
+
+    .service_center_info .head .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 28px;
     }
 
 

@@ -948,7 +948,6 @@
 
 
 
-
     /*----------------------
         Directions study
     ----------------------*/
@@ -968,18 +967,14 @@
     /*-------------------
         Services list
     -------------------*/
-    .services_list .row > *,
-    .services_list .row > *:nth-child(1),
-    .services_list .row > *:nth-child(2)
+    .services_list .row > *
     {
         width: calc(50% - 40px);
-        max-width: calc(50% - 40px);
     }
 
-    .services_list .row > *:nth-child(3)
+    .services_list .row > *:last-child
     {
         width: calc(100% - 40px);
-        max-width: calc(100% - 40px);
     }
 
 
@@ -1114,6 +1109,57 @@
     .team .person
     {
         padding: 31px;
+    }
+
+
+
+    /*-------------------------
+        Service center info
+    -------------------------*/
+    .service_center_info .head .title
+    {
+        font-size: 34px;
+    }
+
+    .service_center_info .head .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 100%;
+        margin-top: 32px;
+    }
+
+    .service_center_info .head .link
+    {
+        margin-top: 24px;
+    }
+
+    .service_center_info .head .link a
+    {
+        padding: 13px 20px 9px;
+    }
+
+
+
+    /*-----------------------------
+        Service center services
+    -----------------------------*/
+    .service_center_services .row
+    {
+        margin-left: 0;
+    }
+
+    .service_center_services .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+    .service_center_services .title
+    {
+        font-size: 24px;
     }
 
 

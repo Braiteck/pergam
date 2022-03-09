@@ -240,7 +240,7 @@ $(() => {
 					},
 					breakpoints: {
 						480: {
-							spaceBetween: 12,
+							spaceBetween: 20,
 							slidesPerView: 2
 						},
 						768: {

@@ -533,12 +533,6 @@
     /*-----------
         Certs
     -----------*/
-    .certs .block_head
-    {
-        margin-bottom: 24px;
-    }
-
-
     .certs .row
     {
         margin-bottom: -32px;
@@ -1060,32 +1054,9 @@
     /*-------------------
         Services list
     -------------------*/
-    .services_list .row
+    .services_list
     {
-        margin-bottom: -40px;
-        margin-left: -40px;
-    }
-
-    .services_list .row > *
-    {
-        max-width: calc(100% - 40px);
-        margin-bottom: 40px;
-        margin-left: 40px;
-    }
-
-    .services_list .row > *:nth-child(1)
-    {
-        width: 340px;
-    }
-
-    .services_list .row > *:nth-child(2)
-    {
-        width: 340px;
-    }
-
-    .services_list .row > *:nth-child(3)
-    {
-        width: calc(100% - 800px);
+        margin-bottom: 60px;
     }
 
 
@@ -1095,6 +1066,17 @@
 
         min-height: 72px;
         padding-left: 100px;
+    }
+
+
+    .services_list .service .link
+    {
+        margin-top: 8px;
+    }
+
+    .services_list .service .link a
+    {
+        height: 40px;
     }
 
 
@@ -1271,6 +1253,107 @@
     .team .person .contacts > * + *
     {
         margin-top: 4px;
+    }
+
+
+
+    /*-------------------------
+        Service center info
+    -------------------------*/
+    .service_center_info
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    .service_center_info .head
+    {
+        padding: 80px 0;
+    }
+
+
+    .service_center_info .head .title
+    {
+        font-size: 48px;
+    }
+
+    .service_center_info .head .desc
+    {
+        font-size: 20px;
+        line-height: 30px;
+
+        width: 784px;
+        margin-top: 40px;
+    }
+
+    .service_center_info .head .link
+    {
+        margin-top: 40px;
+    }
+
+    .service_center_info .head .link a
+    {
+        padding: 15px 24px 11px;
+    }
+
+
+
+    .service_center_info .links
+    {
+        padding: 40px 0;
+    }
+
+
+    .service_center_info .links .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .service_center_info .links .row > *
+    {
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .service_center_info .links a
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+    /*-----------------------------
+        Service center services
+    -----------------------------*/
+    .service_center_services .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .service_center_services .row > *
+    {
+        width: calc(50% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .service_center_services .title
+    {
+        font-size: 30px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .service_center_services .thumb
+    {
+        margin-bottom: 24px;
     }
 
 
