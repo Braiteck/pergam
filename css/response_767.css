@@ -475,6 +475,12 @@
     /*--------------
         Products
     --------------*/
+    .products .block_head .title.mini
+    {
+        max-width: 100%;
+    }
+
+
     .products .row,
     .content .products .row
     {
@@ -1025,6 +1031,34 @@
         line-height: 20px;
 
         margin-top: 28px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info
+    {
+        padding-top: 24px;
+    }
+
+
+    .brand_info .breadcrumbs
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .brand_info .brand_name
+    {
+        font-size: 30px;
+    }
+
+
+    .brand_info .desc
+    {
+        font-size: 18px;
     }
 
 

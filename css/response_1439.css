@@ -241,6 +241,31 @@
 
 
 
+    aside .categories
+    {
+        padding: 32px;
+    }
+
+
+    aside .categories .title
+    {
+        font-size: 22px;
+    }
+
+
+    aside .categories .items > * + *
+    {
+        margin-top: 16px;
+    }
+
+    aside .categories .items a
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
     /*---------------
         Page head
     ---------------*/
@@ -1555,6 +1580,56 @@
     {
         font-size: 16px;
         line-height: 20px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info .content_flex + .content_flex
+    {
+        margin-top: 32px;
+    }
+
+
+    .brand_info .brand_name
+    {
+        font-size: 40px;
+
+        padding: 0;
+    }
+
+
+    .brand_info .logo
+    {
+        padding-left: 32px;
+    }
+
+
+    .brand_info .desc
+    {
+        font-size: 24px;
+        line-height: calc(100% + 8px);
+
+        margin-top: 16px;
+    }
+
+
+    .brand_info .link a
+    {
+        height: 40px;
+    }
+
+
+    .brand_info .cert
+    {
+        padding: 0 32px;
+    }
+
+    .brand_info .cert .thumb
+    {
+        margin-bottom: 20px;
     }
 
 

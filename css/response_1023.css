@@ -196,6 +196,11 @@
         order: 1;
     }
 
+    aside.big_m
+    {
+        margin-bottom: 40px;
+    }
+
 
     aside .mob_filter_btn
     {
@@ -204,6 +209,21 @@
 
 
     aside .filter
+    {
+        display: none;
+
+        margin-top: 8px;
+    }
+
+
+
+    aside .mob_categories_btn
+    {
+        display: block;
+    }
+
+
+    aside .categories
     {
         display: none;
 
@@ -1295,6 +1315,69 @@
     .catalog_info .links a
     {
         padding: 11px 20px 7px;
+    }
+
+
+
+    /*----------------
+        Brand info
+    ----------------*/
+    .brand_info
+    {
+        margin-bottom: 40px;
+        padding-top: 32px;
+    }
+
+
+    .brand_info .content_flex + .content_flex
+    {
+        margin-top: 24px;
+    }
+
+
+    .brand_info .breadcrumbs
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .brand_info .brand_name
+    {
+        font-size: 32px;
+    }
+
+
+    .brand_info .logo
+    {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .brand_info .logo img
+    {
+        max-width: 160px;
+        margin: 0;
+    }
+
+
+    .brand_info .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .brand_info .cert
+    {
+        padding: 0;
+    }
+
+
+    .brand_info .mob_last
+    {
+        margin-top: 24px;
+        margin-bottom: 0;
+
+        order: 3;
     }
 
 
