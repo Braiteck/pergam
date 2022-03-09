@@ -1725,6 +1725,84 @@
 
 
 
+    /*------------------
+        Landing head
+    ------------------*/
+    .landing_head
+    {
+        padding: 50px 0 60px;
+    }
+
+
+    .landing_head .title
+    {
+        font-size: 40px;
+
+        width: 628px;
+    }
+
+
+    .landing_head .download_link
+    {
+        margin-top: 0;
+    }
+
+    .landing_head .download_link a
+    {
+        line-height: 19px;
+
+        padding: 10px 16px 8px;
+    }
+
+
+    .landing_head .categories
+    {
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+    .landing_head .categories > *
+    {
+        width: calc(25% - 16px);
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+    .landing_head .categories .category
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        min-height: 100px;
+        padding: 20px 40px 20px 20px;
+    }
+
+
+
+    /*-------------------
+        Landing about
+    -------------------*/
+    .landing_about .data
+    {
+        width: calc(100% - 296px);
+    }
+
+
+    .landing_about .data .title
+    {
+        font-size: 32px;
+    }
+
+
+    .landing_about .manager
+    {
+        width: 272px;
+        padding: 23px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

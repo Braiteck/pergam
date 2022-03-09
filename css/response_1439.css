@@ -1634,6 +1634,146 @@
 
 
 
+    /*------------------
+        Landing head
+    ------------------*/
+    .landing_head
+    {
+        padding: 50px 0 80px;
+    }
+
+
+    .landing_head .title
+    {
+        font-size: 48px;
+    }
+
+
+    .landing_head .download_link
+    {
+        margin-top: 3px;
+    }
+
+
+    .landing_head .categories
+    {
+        margin-top: 44px;
+        margin-bottom: -15px;
+        margin-left: -15px;
+    }
+
+    .landing_head .categories > *
+    {
+        width: calc(20% - 15px);
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+
+    .landing_head .categories .category
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        min-height: 112px;
+        padding: 23px;
+    }
+
+    .landing_head .categories .category .icon
+    {
+        bottom: 19px;
+    }
+
+
+
+    /*-------------------
+        Landing about
+    -------------------*/
+    .landing_about
+    {
+        padding: 60px 0;
+    }
+
+
+    .landing_about .data
+    {
+        width: calc(100% - 328px);
+    }
+
+
+    .landing_about .data .title
+    {
+        font-size: 36px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .landing_about .data .text_block
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .landing_about .data .btn
+    {
+        margin-top: 24px;
+        padding: 11px 20px 9px;
+    }
+
+
+    .landing_about .manager
+    {
+        width: 288px;
+        padding: 29px;
+    }
+
+
+    .landing_about .manager .photo
+    {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 24px;
+    }
+
+    .landing_about .manager .name
+    {
+        font-size: 20px;
+    }
+
+    .landing_about .manager .location,
+    .landing_about .manager .link a
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .landing_about .manager .contacts > * + *
+    {
+        margin-top: 4px;
+    }
+
+
+
+    /*--------------
+        Seo text
+    --------------*/
+    .seo_text
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .seo_text .spoler_btn
+    {
+        font-size: 13px;
+
+        padding: 14px 20px 10px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

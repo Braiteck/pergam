@@ -1063,6 +1063,93 @@
 
 
 
+    /*------------------
+        Landing head
+    ------------------*/
+    .landing_head .breadcrumbs
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .landing_head .title
+    {
+        font-size: 28px;
+    }
+
+
+    .landing_head .download_link
+    {
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+
+    .landing_head .categories
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 48px);
+        margin: 28px -24px 0;
+        padding: 0 24px;
+
+        white-space: nowrap;
+
+        scrollbar-color: transparent transparent;
+        scrollbar-width: thin;
+    }
+
+    .landing_head .categories::-webkit-scrollbar
+    {
+        width: 0;
+        height: 0;
+
+        background-color: transparent;
+    }
+
+    .landing_head .categories::-webkit-scrollbar-thumb
+    {
+        background-color: transparent;
+    }
+
+
+    .landing_head .categories .category
+    {
+        display: inline-block;
+
+        width: 180px;
+        margin-bottom: 0;
+        margin-left: 0;
+
+        vertical-align: top;
+        white-space: normal;
+    }
+
+    .landing_head .categories .category + .category
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*-------------------
+        Landing about
+    -------------------*/
+    .landing_about .data .title
+    {
+        font-size: 25px;
+    }
+
+
+    .landing_about .manager
+    {
+        width: 320px;
+        padding: 31px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

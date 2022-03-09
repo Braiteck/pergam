@@ -1382,6 +1382,100 @@
 
 
 
+    /*------------------
+        Landing head
+    ------------------*/
+    .landing_head
+    {
+        padding: 40px 0 60px;
+    }
+
+
+    .landing_head .breadcrumbs
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .landing_head .title
+    {
+        font-size: 34px;
+
+        width: 512px;
+    }
+
+
+    .landing_head .categories
+    {
+        margin-top: 36px;
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .landing_head .categories > *
+    {
+        width: calc(25% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .landing_head .categories .category
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        min-height: 80px;
+        padding: 16px 32px 16px 16px;
+    }
+
+
+    .landing_head .categories .category .icon
+    {
+        right: 12px;
+        bottom: 12px;
+    }
+
+
+
+    /*-------------------
+        Landing about
+    -------------------*/
+    .landing_about .data
+    {
+        width: 100%;
+    }
+
+
+    .landing_about .data .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .landing_about .manager
+    {
+        width: 272px;
+        margin-top: 28px;
+        margin-left: 0;
+        padding: 21px;
+    }
+
+
+
+    /*--------------
+        Seo text
+    --------------*/
+    .seo_text .spoler_btn
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

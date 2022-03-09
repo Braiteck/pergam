@@ -473,6 +473,15 @@ $(() => {
 	if ($(window).width() < 768) {
 		$('.products .list').addClass('row').removeClass('list')
 	}
+
+
+	// Преимущества товара
+	$('.seo_text .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.seo_text .text_block').toggleClass('hide')
+	})
 })
 
 
