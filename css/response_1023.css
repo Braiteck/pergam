@@ -840,6 +840,41 @@
     }
 
 
+    .product_features .spoler_btn
+    {
+        font-size: 13px;
+    }
+
+
+    .product_features .hide
+    {
+        max-height: 360px;
+    }
+
+
+    .product_features .section
+    {
+        margin-left: 0;
+    }
+
+
+    .product_features .section .title
+    {
+        font-weight: 500;
+
+        width: 100%;
+        margin-bottom: 12px;
+        margin-left: 0;
+    }
+
+
+    .product_features .section .items
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
 
     /*---------------
         Documents
@@ -1032,15 +1067,34 @@
     /*----------------------
         Directions study
     ----------------------*/
-    .directions_study .thumb
+    .directions_study .mob_name
     {
-        padding-bottom: 53%;
+        display: block;
     }
 
+
+    .directions_study .thumb
+    {
+        width: 100%;
+        padding-bottom: 53%;
+
+        order: 2;
+    }
+
+
+    .directions_study .data
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        order: 3;
+    }
 
     .directions_study .data .name
     {
         font-size: 22px;
+
+        display: none;
     }
 
 
@@ -1105,18 +1159,6 @@
     }
 
 
-    .contacts_info .info > *
-    {
-        width: calc(50% - 12px);
-    }
-
-    .contacts_info .info > *:last-child
-    {
-        width: 100%;
-        margin-top: 32px;
-    }
-
-
 
     .contacts_info .info .contacts > *
     {
@@ -1126,15 +1168,6 @@
     .contacts_info .info .contacts .name
     {
         line-height: 23px;
-
-        width: 92px;
-        margin-bottom: 0;
-        padding-right: 16px;
-    }
-
-    .contacts_info .info .contacts .val
-    {
-        width: calc(100% - 92px);
     }
 
     .contacts_info .info .contacts .exp

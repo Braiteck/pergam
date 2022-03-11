@@ -730,6 +730,9 @@
     .product_head .name
     {
         font-size: 20px;
+
+        width: auto;
+        margin: 0;
     }
 
 
@@ -742,6 +745,7 @@
     .product_head .download_link
     {
         margin-top: 0;
+        margin-left: auto;
     }
 
 
@@ -948,15 +952,27 @@
 
     .team .person
     {
+        display: flex;
+
         padding: 23px;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
     }
 
 
     .team .person .photo
     {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 20px;
+        width: 136px;
+        height: 136px;
+        margin: 0;
+    }
+
+    .team .person .photo + *
+    {
+        width: calc(100% - 160px);
     }
 
     .team .person .name

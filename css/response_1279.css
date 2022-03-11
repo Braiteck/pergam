@@ -960,8 +960,12 @@
 
     .product_info .images
     {
-        width: 720px;
-        max-width: 100%;
+        width: 100%;
+    }
+
+    .product_info .images .big .slide a
+    {
+        height: 680px;
     }
 
 
@@ -1090,14 +1094,15 @@
         line-height: 21px;
     }
 
-    .product_advantages .desc:after
-    {
-        display: none;
-    }
-
     .product_advantages ul li:before
     {
         top: 8px;
+    }
+
+
+    .product_advantages .mob_spoler_btn
+    {
+        display: flex;
     }
 
 
@@ -1111,11 +1116,57 @@
     }
 
 
-    .product_features .filter
+    .product_features .spoler_btn
     {
-        width: 240px;
         margin-top: 12px;
         margin-left: 0;
+    }
+
+
+    .product_features .hide
+    {
+        max-height: 400px;
+    }
+
+
+    .product_features .section
+    {
+        margin-left: -24px;
+    }
+
+
+    .product_features .section .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+
+        width: calc(33.333% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .product_features .section .items
+    {
+        width: calc(66.666% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .product_features .section .item + .item
+    {
+        margin-top: 12px;
+    }
+
+    .product_features .section .item
+    {
+        line-height: 22px;
+    }
+
+
+    .product_features .section .item .name,
+    .product_features .section .item .val
+    {
+        width: calc(50% - 12px);
     }
 
 
@@ -1291,20 +1342,13 @@
 
     .directions_study .thumb
     {
-        width: 720px;
-        max-width: 100%;
-        padding-bottom: 380px;
-
-        order: 1;
+        width: calc(50% - 12px);
     }
 
 
     .directions_study .data
     {
-        width: 100%;
-        margin-top: 24px;
-
-        order: 2;
+        width: calc(50% - 12px);
     }
 
     .directions_study .data .name
@@ -1360,9 +1404,15 @@
         margin-top: 32px;
     }
 
+    .contacts_info .info > *
+    {
+        width: calc(50% - 12px);
+    }
+
     .contacts_info .info > *:last-child
     {
-        width: calc(100% - 536px);
+        width: 100%;
+        margin-top: 32px;
     }
 
 
@@ -1383,11 +1433,6 @@
         padding-left: 35px;
     }
 
-    .contacts_info .info .contacts > *
-    {
-        display: block;
-    }
-
     .contacts_info .info .contacts > * + *
     {
         margin-top: 12px;
@@ -1397,18 +1442,12 @@
     {
         font-size: 15px;
         line-height: 21px;
-
-        width: auto;
-        margin-bottom: 4px;
-        padding-right: 0;
     }
 
     .contacts_info .info .contacts .val
     {
         font-size: 15px;
         line-height: 23px;
-
-        width: auto;
     }
 
     .contacts_info .info .contacts .exp
@@ -1434,11 +1473,6 @@
         padding-left: 40px;
     }
 
-    .contacts_info .info .location > *
-    {
-        display: block;
-    }
-
     .contacts_info .info .location > * + *
     {
         margin-top: 12px;
@@ -1448,18 +1482,12 @@
     {
         font-size: 15px;
         line-height: 21px;
-
-        width: auto;
-        margin-bottom: 4px;
-        padding-right: 0;
     }
 
     .contacts_info .info .location .val
     {
         font-size: 15px;
         line-height: 23px;
-
-        width: auto;
     }
 
     .contacts_info .info .location .exp

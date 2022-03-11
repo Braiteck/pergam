@@ -325,7 +325,8 @@ $(() => {
 		let href = $(this).data('anchor'),
 			addOffset = 20
 
-		if ($(this).data('offset')) addOffset = $(this).data('offset')
+		if ($('.product_head').length) addOffset += $('.product_head').outerHeight()
+		if ($(this).data('offset')) addOffset += $(this).data('offset')
 
 		$('html, body').stop().animate({ scrollTop: $(href).offset().top - addOffset }, 1000)
 	})
@@ -384,7 +385,11 @@ $(() => {
 					slidesPerView: 5,
 					spaceBetween: 16
 				},
-				1440: {
+				1024: {
+					slidesPerView: 6,
+					spaceBetween: 20
+				},
+				1280: {
 					slidesPerView: 5,
 					spaceBetween: 20
 				}
@@ -425,6 +430,14 @@ $(() => {
 
 		$(this).toggleClass('active')
 		parent.find('.data').slideToggle(300)
+	})
+
+
+	// Боковая колонка - Категории
+	$('.mob_categories_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active').next().slideToggle(300)
 	})
 
 
@@ -482,6 +495,19 @@ $(() => {
 		$(this).toggleClass('active')
 		$('.seo_text .text_block').toggleClass('hide')
 	})
+
+
+	// Характеристики товара
+	$('.product_features .spoler_btn').click(function (e) {
+		e.preventDefault()
+
+		$(this).toggleClass('active')
+		$('.product_features .data').toggleClass('hide')
+	})
+
+
+	// Залипание блока
+	$('.sticky').stick_in_parent()
 })
 
 
