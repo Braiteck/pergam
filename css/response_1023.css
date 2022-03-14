@@ -488,7 +488,7 @@
 
     .products .product .btns .btn
     {
-        display: none;
+        margin: 8px auto 0;
     }
 
 

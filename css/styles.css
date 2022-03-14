@@ -1634,15 +1634,16 @@ aside .categories .items a
     font-size: 18px;
     line-height: 25px;
 
-    transition: border-color .2s linear;
-    text-decoration: none;
+    display: inline-block;
 
-    border-bottom: 1px solid transparent;
+    transition: color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
 }
 
 aside .categories .items a:hover
 {
-    border-color: #ce171e;
+    color: #ce171e;
 }
 
 
@@ -1927,7 +1928,15 @@ aside .categories .items a:hover
 {
     color: #ce171e;
 
+    transition: border-color .2s linear;
     text-decoration: none;
+
+    border-bottom: 1px solid transparent;
+}
+
+.text_block a:hover
+{
+    border-color: #ce171e;
 }
 
 
@@ -2899,15 +2908,17 @@ aside .categories .items a:hover
 {
     color: currentColor;
 
-    transition: border-color .2s linear;
-    text-decoration: none;
+    display: inline-block;
 
-    border-bottom: 1px solid transparent;
+    transition: color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
 }
 
+.products .product .thumb:hover ~ .info .name a,
 .products .product .name a:hover
 {
-    border-color: #ce171e;
+    color: #ce171e;
 }
 
 
@@ -3002,7 +3013,7 @@ aside .categories .items a:hover
     width: 35px;
     height: 38px;
 
-    transition: opacity .2s linear;
+    transition: .2s linear;
 
     opacity: 0;
 
@@ -3032,6 +3043,11 @@ aside .categories .items a:hover
 {
     width: 31px;
     height: 30px;
+}
+
+.products .product .btns .btn:hover
+{
+    color: #ce171e;
 }
 
 
@@ -4139,6 +4155,8 @@ aside .categories .items a:hover
     width: 35px;
     height: 43px;
 
+    transition: color .2s linear;
+
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -4171,6 +4189,11 @@ aside .categories .items a:hover
 {
     width: 26px;
     height: 28px;
+}
+
+.product_info .btns .btn:hover
+{
+    color: #ce171e;
 }
 
 
@@ -4233,10 +4256,16 @@ aside .categories .items a:hover
     width: 100%;
     padding: 18px 40px 15px;
 
+    transition: background .2s linear;
     letter-spacing: .05em;
     text-transform: uppercase;
 
     border-radius: 7px;
+    background: #e27478;
+}
+
+.product_info .buy .buy_btn:hover
+{
     background: #ce171e;
 }
 
@@ -4254,6 +4283,18 @@ aside .categories .items a:hover
 
     letter-spacing: .05em;
     text-transform: uppercase;
+}
+
+.product_info .buy .quike_buy_btn span
+{
+    transition: border-color .2s linear;
+
+    border-bottom: 1px solid transparent;
+}
+
+.product_info .buy .quike_buy_btn:hover span
+{
+    border-color: #ce171e;
 }
 
 
@@ -5595,6 +5636,8 @@ aside .categories .items a:hover
 
 .directions_study .link
 {
+    display: flex;
+
     margin-top: 6px;
 }
 
@@ -5628,6 +5671,18 @@ aside .categories .items a:hover
     width: 6px;
     height: 10px;
     margin-left: 10px;
+}
+
+.directions_study .link a span
+{
+    transition: border-color .2s linear;
+
+    border-bottom: 1px solid transparent;
+}
+
+.directions_study .link a:hover span
+{
+    border-color: #ce171e;
 }
 
 
@@ -5739,6 +5794,18 @@ aside .categories .items a:hover
     width: 6px;
     height: 10px;
     margin-left: 10px;
+}
+
+.services_list .service .link a span
+{
+    transition: border-color .2s linear;
+
+    border-bottom: 1px solid transparent;
+}
+
+.services_list .service .link a:hover span
+{
+    border-color: #ce171e;
 }
 
 
@@ -5952,8 +6019,16 @@ aside .categories .items a:hover
 {
     color: #ce171e;
 
+    transition: border-color .2s linear;
     white-space: nowrap;
     text-decoration: none;
+
+    border-bottom: 1px solid transparent;
+}
+
+.contacts_info .info .contacts a:hover
+{
+    border-color: #ce171e;
 }
 
 .contacts_info .info .contacts .exp
@@ -6211,8 +6286,16 @@ aside .categories .items a:hover
 {
     color: #ce171e;
 
+    transition: border-color .2s linear;
     white-space: nowrap;
     text-decoration: none;
+
+    border-bottom: 1px solid transparent;
+}
+
+.team .person .contacts a:hover
+{
+    border-color: #ce171e;
 }
 
 
@@ -6300,6 +6383,7 @@ aside .categories .items a:hover
 
     padding: 16px 30px 14px;
 
+    transition: background .2s linear;
     vertical-align: top;
     text-decoration: none;
     letter-spacing: .05em;
@@ -6307,6 +6391,11 @@ aside .categories .items a:hover
 
     border-radius: 7px;
     background: #e17378;
+}
+
+.service_center_info .head .link a:hover
+{
+    background: #ce171e;
 }
 
 
@@ -6716,6 +6805,8 @@ aside .categories .items a:hover
 
 .brand_info .link
 {
+    display: flex;
+
     margin-top: 10px;
 }
 
@@ -6749,6 +6840,18 @@ aside .categories .items a:hover
     width: 6px;
     height: 10px;
     margin-left: 10px;
+}
+
+.brand_info .link a span
+{
+    transition: border-color .2s linear;
+
+    border-bottom: 1px solid transparent;
+}
+
+.brand_info .link a:hover span
+{
+    border-color: #ce171e;
 }
 
 
@@ -7171,8 +7274,16 @@ aside .categories .items a:hover
 {
     color: #ce171e;
 
+    transition: border-color .2s linear;
     white-space: nowrap;
     text-decoration: none;
+
+    border-bottom: 1px solid transparent;
+}
+
+.landing_about .manager .contacts a:hover
+{
+    border-color: #ce171e;
 }
 
 
