@@ -1,4 +1,5 @@
-@media print, (max-width: 1279px)
+@media print,
+(max-width: 1279px)
 {
     /*-------------------
         Global styles
@@ -79,6 +80,39 @@
         min-height:         fill-available;
         max-height: 100% !important;
     }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 48px;
+    }
+
+
+    .pagination > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    .pagination a
+    {
+        line-height: 46px;
+
+        width: 44px;
+        height: 44px;
+    }
+
+
+    .pagination .prev,
+    .pagination .next
+    {
+        font-size: 26px;
+    }
+
 
 
     /*------------
@@ -275,6 +309,13 @@
 
 
 
+    aside .anchors .items > * + *
+    {
+        margin-top: 12px;
+    }
+
+
+
     /*---------------
         Page head
     ---------------*/
@@ -308,6 +349,25 @@
     }
 
 
+    .page_head .links
+    {
+        margin-top: 28px;
+        margin-bottom: -4px;
+    }
+
+    .page_head .links > *
+    {
+        margin-bottom: 4px;
+    }
+
+
+    .page_head .links .link
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
 
     /*----------------
         Block head
@@ -337,6 +397,22 @@
     .text_block
     {
         line-height: 23px;
+    }
+
+
+    .text_block blockquote
+    {
+        padding: 60px 164px;
+    }
+
+    .text_block blockquote:before
+    {
+        left: 64px;
+    }
+
+    .text_block blockquote:after
+    {
+        right: 64px;
     }
 
 
@@ -1827,6 +1903,256 @@
     {
         width: 272px;
         padding: 23px;
+    }
+
+
+
+    /*-------------------
+        Articles head
+    -------------------*/
+    .articles_head
+    {
+        margin-bottom: 52px;
+    }
+
+
+    .articles_head .page_title,
+    .articles_head .subscribe_btn
+    {
+        margin-top: 40px;
+    }
+
+
+    .articles_head .years
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        margin-top: 28px;
+    }
+
+    .articles_head .years a
+    {
+        padding: 11px 14px 8px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .row
+    {
+        margin-bottom: -28px;
+    }
+
+    .events .row > *
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .events .event
+    {
+        padding: 23px;
+    }
+
+
+    .events .event .category
+    {
+        top: 19px;
+    }
+
+
+    .events .event .date
+    {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .events .event .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .photogallery .row
+    {
+        margin-bottom: -48px;
+        margin-left: -24px;
+    }
+
+    .photogallery .row > *
+    {
+        width: calc(33.333% - 24px);
+        margin-bottom: 48px;
+        margin-left: 24px;
+    }
+
+
+    .photogallery .item .thumb
+    {
+        margin-bottom: 20px;
+        padding: 28px 50px 0 0;
+    }
+
+    .photogallery .item .thumb div + div
+    {
+        bottom: 14px;
+        left: 25px;
+
+        width: calc(100% - 50px);
+        padding-bottom: 56.04%;
+    }
+
+    .photogallery .item .thumb div + div + div
+    {
+        bottom: 28px;
+        left: 50px;
+    }
+
+
+    .photogallery .item .count
+    {
+        margin-left: 24px;
+    }
+
+
+    .photogallery .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment .row
+    {
+        margin-bottom: -28px;
+    }
+
+    .equipment .row > *
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .equipment .item
+    {
+        padding: 23px;
+    }
+
+
+    .equipment .item .name
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        margin-bottom: 72px;
+        padding-top: 40px;
+
+        --sidebar_width: 100%;
+    }
+
+
+    .article_info .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+    .article_info aside
+    {
+        margin-top: 52px;
+        margin-bottom: 0;
+
+        order: 2;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 40px;
+        line-height: 120%;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info aside
+    {
+        display: flex;
+
+        justify-content: space-between;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+
+    .event_info .logo
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .event_info .photogallery
+    {
+        width: calc(50% - 24px);
+        margin-top: 0;
+    }
+
+
+
+    /*------------------
+        Gallery info
+    ------------------*/
+    .gallery_info aside
+    {
+        display: none;
+    }
+
+
+    .gallery_info .images .row
+    {
+        margin-bottom: -16px;
+        margin-left: -16px;
+    }
+
+    .gallery_info .images .row > *
+    {
+        width: calc(16.666% - 16px);
+        margin-bottom: 16px;
+        margin-left: 16px;
+    }
+
+
+
+    /*----------------
+        Equipment info
+    ----------------*/
+    .equipment_info aside
+    {
+        display: none;
     }
 
 

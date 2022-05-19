@@ -277,6 +277,57 @@ $(() => {
 	}
 
 
+	// Страница статьи
+	if ($('.article_info .images').length) {
+		const articleThumbs = new Swiper('.article_info .thumbs .swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			breakpoints: {
+				0: {
+					slidesPerView: 4,
+					spaceBetween: 16
+				},
+				768: {
+					slidesPerView: 6,
+					spaceBetween: 16
+				},
+				1024: {
+					slidesPerView: 8,
+					spaceBetween: 20
+				},
+				1280: {
+					slidesPerView: 4,
+					spaceBetween: 12
+				},
+				1440: {
+					slidesPerView: 4,
+					spaceBetween: 20
+				}
+			}
+		})
+
+		new Swiper('.article_info .big .swiper-container', {
+			loop: false,
+			speed: 500,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			spaceBetween: 20,
+			slidesPerView: 1,
+			thumbs: {
+				swiper: articleThumbs
+			}
+		})
+	}
+
+
 	// Смена фона
 	$('.first_section .services .service').mouseenter(function () {
 		let newBg = $(this).data('bg')
@@ -508,6 +559,9 @@ $(() => {
 
 	// Залипание блока
 	$('.sticky').stick_in_parent()
+	$('.sticky_margin').stick_in_parent({
+		offset_top: 20
+	})
 })
 
 

@@ -1,4 +1,5 @@
-@media print, (max-width: 1023px)
+@media print,
+(max-width: 1023px)
 {
     /*-------------------
         Global styles
@@ -240,16 +241,38 @@
         padding: 40px 0;
     }
 
+    .page_head.margin
+    {
+        margin-bottom: 52px;
+    }
+
 
     .page_title
     {
         font-size: 38px;
     }
 
+    .breadcrumbs + .page_title
+    {
+        margin-top: 32px;
+    }
+
 
     .page_head .btns
     {
         display: none;
+    }
+
+    .page_head .btns.tabs
+    {
+        display: flex;
+    }
+
+
+    .page_head .btns .btn
+    {
+        font-size: 14px;
+        line-height: 20px;
     }
 
 
@@ -259,7 +282,7 @@
     ----------------*/
     .block_head.big_m
     {
-        margin-bottom: 24px;
+        margin-bottom: 28px;
     }
 
 
@@ -279,6 +302,36 @@
     /*----------------
         Typography
     ----------------*/
+    .text_block h2
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .text_block blockquote
+    {
+        font-size: 18px;
+        line-height: 26px;
+
+        padding: 48px 80px;
+    }
+
+    .text_block blockquote:before
+    {
+        font-size: 110px;
+
+        top: 56px;
+        left: 16px;
+    }
+
+    .text_block blockquote:after
+    {
+        font-size: 110px;
+
+        right: 16px;
+        bottom: 56px;
+    }
 
 
 
@@ -392,7 +445,8 @@
     /*--------------
         Articles
     --------------*/
-    .articles
+    .articles,
+    .articles.big_margin
     {
         margin-bottom: 60px;
     }
@@ -403,7 +457,7 @@
         width: calc(50% - 24px);
     }
 
-    .articles .row > *:nth-child(2) ~ *
+    .articles .row > *.tablet_hide
     {
         display: none;
     }
@@ -1505,6 +1559,207 @@
     {
         margin-top: 16px;
         margin-left: 0;
+    }
+
+
+
+    /*-------------------
+        Articles head
+    -------------------*/
+    .articles_head
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .articles_head .page_title,
+    .articles_head .subscribe_btn
+    {
+        margin-top: 32px;
+    }
+
+
+    .articles_head .subscribe_btn
+    {
+        font-size: 12px;
+        line-height: 19px;
+
+        padding: 10px 16px 6px;
+    }
+
+
+    .articles_head .years
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-top: 24px;
+    }
+
+    .articles_head .years a
+    {
+        padding: 11px 16px 8px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .events .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .photogallery .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+    .photogallery .row > *.tablet_hide
+    {
+        display: none;
+    }
+
+
+    .photogallery .item .thumb div + div
+    {
+        padding-bottom: 57.1%;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+    .equipment .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .breadcrumbs
+    {
+        margin-bottom: 36px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 36px;
+
+        margin-bottom: 36px;
+    }
+
+
+    .article_info .date
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info .head .date
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .event_info .invite
+    {
+        padding: 40px;
+    }
+
+    .event_info .invite .title
+    {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .event_info .invite .desc
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-top: 16px;
+    }
+
+    .event_info .invite .get_btn
+    {
+        margin-top: 24px;
+        padding: 12px 20px 9px;
+    }
+
+
+
+    .event_info .photogallery .item .name
+    {
+        padding: 0 28px;
+    }
+
+
+
+    /*----------------
+        Equipment info
+    ----------------*/
+    .equipment_info .head .date
+    {
+        margin-bottom: 8px;
+    }
+
+
+
+    /*------------------
+        Gallery info
+    ------------------*/
+    .gallery_info .head .date
+    {
+        margin-bottom: 8px;
+    }
+
+
+    .gallery_info .images
+    {
+        margin-top: 40px;
+
+        order: 5;
+    }
+
+
+    .gallery_info .images .row > *
+    {
+        width: calc(20% - 16px);
     }
 
 

@@ -1,4 +1,5 @@
-@media print, (max-width: 1439px)
+@media print,
+(max-width: 1439px)
 {
     /*-------------------
         Global styles
@@ -59,6 +60,31 @@
         line-height: 20px;
 
         height: 40px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 52px;
+    }
+
+
+    .pagination > * + *
+    {
+        margin-left: 16px;
+    }
+
+
+    .pagination a
+    {
+        line-height: 50px;
+
+        width: 48px;
+        height: 48px;
     }
 
 
@@ -266,12 +292,63 @@
 
 
 
+    aside .anchors .title
+    {
+        font-size: 23px;
+        line-height: 29px;
+
+        margin-bottom: 20px;
+    }
+
+
+    aside .anchors .items button
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        padding-left: 32px;
+    }
+
+
+
+    aside .gallery_thumbs
+    {
+        padding: 40px 71px 0 0;
+    }
+
+    aside .gallery_thumbs div + div
+    {
+        bottom: 20px;
+        left: 36px;
+
+        width: calc(100% - 71px);
+    }
+
+    aside .gallery_thumbs div + div + div
+    {
+        bottom: 40px;
+        left: 71px;
+    }
+
+
+
     /*---------------
         Page head
     ---------------*/
+    .page_head.margin
+    {
+        margin-bottom: 60px;
+    }
+
+
     .page_title
     {
         font-size: 52px;
+    }
+
+    .breadcrumbs + .page_title
+    {
+        margin-top: 40px;
     }
 
 
@@ -299,6 +376,27 @@
     }
 
 
+    .page_head .links
+    {
+        margin-top: 32px;
+        margin-bottom: -12px;
+    }
+
+    .page_head .links > *
+    {
+        margin-bottom: 12px;
+    }
+
+
+    .page_head .links .link
+    {
+        font-size: 16px;
+        line-height: 20px;
+
+        padding: 11px 16px 7px;
+    }
+
+
 
     /*----------------
         Block head
@@ -321,6 +419,58 @@
 
         width: 1000px;
         margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2
+    {
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+    .text_block h3
+    {
+        font-size: 19px;
+        line-height: 29px;
+    }
+
+
+    .text_block blockquote
+    {
+        font-size: 19px;
+        line-height: 27px;
+
+        padding: 60px 92px;
+    }
+
+    .text_block blockquote:before
+    {
+        font-size: 120px;
+
+        top: 64px;
+        left: 20px;
+    }
+
+    .text_block blockquote:after
+    {
+        font-size: 120px;
+
+        right: 20px;
+        bottom: 64px;
+    }
+
+
+    .text_block figure figcaption
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 20px;
+        padding: 0 28px;
     }
 
 
@@ -399,7 +549,8 @@
     /*--------------
         Articles
     --------------*/
-    .articles
+    .articles,
+    .articles.big_margin
     {
         margin-bottom: 72px;
     }
@@ -1770,6 +1921,354 @@
         font-size: 13px;
 
         padding: 14px 20px 10px;
+    }
+
+
+
+    /*-------------------
+        Articles head
+    -------------------*/
+    .articles_head
+    {
+        margin-bottom: 60px;
+        padding: 48px 0;
+    }
+
+
+    .articles_head .page_title,
+    .articles_head .subscribe_btn
+    {
+        margin-top: 50px;
+    }
+
+
+    .articles_head .years
+    {
+        font-size: 17px;
+        line-height: 19px;
+
+        margin-top: 32px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .events .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .events .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .events .event
+    {
+        padding: 27px 27px 27px 23px;
+    }
+
+
+    .events .event .category
+    {
+        top: 24px;
+    }
+
+
+    .events .event .info
+    {
+        width: 50%;
+    }
+
+
+    .events .event .date
+    {
+        font-size: 15px;
+        line-height: 19px;
+
+        margin-bottom: 16px;
+        padding-left: 60px;
+    }
+
+
+    .events .event .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .events .event .location
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-top: 16px;
+    }
+
+
+    .events .event .desc
+    {
+        font-size: 13px;
+        line-height: 19px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .photogallery .row
+    {
+        margin-bottom: -56px;
+        margin-left: -28px;
+    }
+
+    .photogallery .row > *
+    {
+        width: calc(33.333% - 28px);
+        margin-bottom: 56px;
+        margin-left: 28px;
+    }
+
+
+    .photogallery .item .thumb
+    {
+        margin-bottom: 24px;
+        padding: 40px 71px 0 0;
+    }
+
+    .photogallery .item .thumb div + div
+    {
+        bottom: 20px;
+        left: 36px;
+
+        width: calc(100% - 71px);
+    }
+
+    .photogallery .item .thumb div + div + div
+    {
+        bottom: 40px;
+        left: 71px;
+    }
+
+
+    .photogallery .item .count
+    {
+        margin-left: 28px;
+    }
+
+
+    .photogallery .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-top: 12px;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .equipment .row
+    {
+        margin-bottom: -40px;
+        margin-left: -24px;
+    }
+
+    .equipment .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 40px;
+        margin-left: 24px;
+    }
+
+
+    .equipment .item
+    {
+        padding: 27px 27px 27px 23px;
+    }
+
+
+    .equipment .item .info
+    {
+        width: 50%;
+    }
+
+
+    .equipment .item .date,
+    .equipment .item .person
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .equipment .item .name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .equipment .item .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        margin-bottom: 80px;
+        padding-top: 48px;
+
+        --sidebar_width: 400px;
+    }
+
+
+
+    .article_info .article_title
+    {
+        font-size: 44px;
+    }
+
+
+    .article_info .images .thumbs
+    {
+        margin-top: 20px;
+        padding: 0 28px;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info .head
+    {
+        margin-bottom: 24px;
+        margin-left: -24px;
+    }
+
+    .event_info .head > *
+    {
+        margin-bottom: 8px;
+        margin-left: 24px;
+    }
+
+
+
+    .event_info .invite
+    {
+        padding: 40px 52px;
+    }
+
+
+    .event_info .invite .title
+    {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+
+    .event_info .invite .desc
+    {
+        font-size: 16px;
+        line-height: 24px;
+
+        margin-top: 20px;
+    }
+
+
+    .event_info .invite .get_btn
+    {
+        margin-top: 28px;
+        padding: 12px 24px 9px;
+    }
+
+
+
+    .event_info .photogallery
+    {
+        margin-top: 100px;
+    }
+
+
+    .event_info .photogallery .item .name
+    {
+        padding: 0 36px;
+    }
+
+
+
+    /*----------------
+        Equipment info
+    ----------------*/
+    .equipment_info .head
+    {
+        margin-left: -24px;
+    }
+
+    .equipment_info .head > *
+    {
+        margin-bottom: 8px;
+        margin-left: 24px;
+    }
+
+
+
+    /*------------------
+        Gallery info
+    ------------------*/
+    .gallery_info .head
+    {
+        margin-left: -24px;
+    }
+
+    .gallery_info .head > *
+    {
+        margin-bottom: 8px;
+        margin-left: 24px;
+    }
+
+
+    .gallery_info .images .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+    .gallery_info .images .row > *
+    {
+        width: calc(16.666% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
     }
 
 

@@ -1,4 +1,5 @@
-@media print, (max-width: 767px)
+@media print,
+(max-width: 767px)
 {
     /*-------------------
         Global styles
@@ -77,6 +78,38 @@
     .mob_all_link
     {
         display: flex;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 40px;
+    }
+
+
+    .pagination > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+    .pagination a
+    {
+        line-height: 42px;
+
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .pagination .prev,
+    .pagination .next
+    {
+        font-size: 24px;
     }
 
 
@@ -221,10 +254,55 @@
         padding: 32px 0;
     }
 
+    .page_head.margin
+    {
+        margin-bottom: 48px;
+    }
+
 
     .page_title
     {
         font-size: 32px;
+    }
+
+
+    .page_head .btns.tabs
+    {
+        width: calc(100% + 4px);
+        margin: 20px 0 0 -4px;
+        padding: 0;
+    }
+
+    .page_head .btns .btn
+    {
+        font-size: 12px;
+        line-height: 18px;
+
+        margin-left: 4px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .anchors .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    aside .anchors .items button
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding-left: 28px;
     }
 
 
@@ -248,6 +326,52 @@
     /*----------------
         Typography
     ----------------*/
+    .text_block h2
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+
+    .text_block blockquote
+    {
+        font-size: 17px;
+        line-height: 25px;
+
+        padding: 64px 24px;
+    }
+
+    .text_block blockquote:before
+    {
+        font-size: 90px;
+
+        top: 12px;
+        left: 12px;
+    }
+
+    .text_block blockquote:after
+    {
+        font-size: 90px;
+
+        right: 12px;
+        bottom: 12px;
+    }
+
+
+    .text_block figure figcaption
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 12px;
+        padding: 0;
+    }
 
 
 
@@ -359,11 +483,6 @@
     {
         width: 100%;
         margin-left: 0;
-    }
-
-    .articles .row > *:nth-child(2) ~ *
-    {
-        display: block;
     }
 
 
@@ -1162,6 +1281,208 @@
     {
         width: 320px;
         padding: 31px;
+    }
+
+
+
+    /*-------------------
+        Articles head
+    -------------------*/
+    .articles_head
+    {
+        padding: 40px 0;
+    }
+
+
+    .articles_head .page_title
+    {
+        width: 100%;
+        margin-top: 28px;
+    }
+
+
+    .articles_head .subscribe_btn
+    {
+        margin-top: 16px;
+        margin-left: 0;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+    .articles_head .years
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*------------
+        Events
+    ------------*/
+    .events
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .events .event .info
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .events .event .date
+    {
+        padding-left: 0;
+    }
+
+
+    .events .event .thumb
+    {
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 20px;
+        padding-bottom: 50%;
+    }
+
+
+
+    /*------------------
+        Photogallery
+    ------------------*/
+    .photogallery .row
+    {
+        margin-bottom: -52px;
+        margin-left: 0;
+    }
+
+    .photogallery .row > *
+    {
+        width: 100%;
+        margin-bottom: 52px;
+        margin-left: 0;
+    }
+
+
+    .photogallery .item .thumb
+    {
+        padding: 50px 88px 0 0;
+    }
+
+    .photogallery .item .thumb div + div
+    {
+        bottom: 25px;
+        left: 44px;
+
+        width: calc(100% - 88px);
+        padding-bottom: 54.38%;
+    }
+
+
+    .photogallery .item .thumb div + div + div
+    {
+        bottom: 50px;
+        left: 88px;
+    }
+
+
+
+    /*---------------
+        Equipment
+    ---------------*/
+    .equipment
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .equipment .item .info
+    {
+        width: 100%;
+
+        order: 2;
+    }
+
+
+    .equipment .item .thumb
+    {
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 20px;
+        padding-bottom: 50%;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info .breadcrumbs
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .article_info .article_title
+    {
+        font-size: 32px;
+
+        margin-bottom: 32px;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info .head .location
+    {
+        width: calc(100% + 24px);
+    }
+
+
+    .event_info .invite
+    {
+        padding: 36px;
+    }
+
+    .event_info .invite .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .event_info .invite .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .event_info .logo
+    {
+        width: 100%;
+    }
+
+
+    .event_info .photogallery
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+
+    /*------------------
+        Gallery info
+    ------------------*/
+    .gallery_info .images .row > *
+    {
+        width: calc(33.333% - 16px);
     }
 
 
